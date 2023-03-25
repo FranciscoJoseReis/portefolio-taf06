@@ -3,6 +3,25 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
+
+ /*google maps*/
+ .google-map-container {
+     border: 10px solid white;
+     padding: 5px;
+     overflow: hidden;
+     padding-bottom: 56.25%;
+     position: relative;
+     height: 0;
+ }
+
+ .google-map-container iframe {
+     left: 0;
+     top: 0;
+     height: 100%;
+     width: 150%;
+     position: absolute;
+ }
+
 .button {
     background-color: black;
     border: none;
