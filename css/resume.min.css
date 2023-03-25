@@ -4,23 +4,32 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
- /*google maps*/
- .google-map-container {
-     border: 10px solid white;
-     padding: 5px;
-     overflow: hidden;
-     padding-bottom: 56.25%;
-     position: relative;
-     height: 0;
- }
+#page-top {
+    background: url(../img/fundo.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+}
 
- .google-map-container iframe {
-     left: 0;
-     top: 0;
-     height: 100%;
-     width: 150%;
-     position: absolute;
- }
+/*google maps*/
+.google-map-container {
+    border: 10px solid white;
+    padding: 5px;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.google-map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 150%;
+    position: absolute;
+}
 
 .button {
     background-color: black;
@@ -35,15 +44,17 @@
     cursor: pointer;
     border-radius: 100%;
 }
+
 .text-indentado {
     text-indent: 20px;
     font-size: 17px;
 }
 
 body {
+
     font-family: 'Open Sans', serif;
     padding-top: 54px;
-    color: #868e96
+    color: whitesmoke
 }
 
 @media (min-width:992px) {
@@ -62,7 +73,7 @@ h6 {
     font-family: 'Saira Extra Condensed', serif;
     font-weight: 700;
     text-transform: uppercase;
-    color: #343a40
+    color: wheat
 }
 
 h1 {
@@ -188,7 +199,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 a {
-    color: #bd5d38
+    color: beige
 }
 
 a:active,
