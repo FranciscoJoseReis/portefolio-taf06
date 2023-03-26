@@ -51,6 +51,14 @@
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.png" alt="">
       </span>
     </a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
+    <p>
+    <div id="current_date" style="color: aliceblue;"></div>
+    </p>
+    <script>
+      var data = moment().locale('pt-br').format('dddd, D [de] MMMM [de] YYYY');
+      document.getElementById("current_date").innerHTML = data;
+    </script>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -81,9 +89,12 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#final">Balanço final do curso</a>
         </li>
-
       </ul>
+
     </div>
+
+    <p class="small copyright-text">TAF06&copy; 2023. Designed by Francisco Reis</p>
+
   </nav>
 
   <div class="container-fluid p-0">
@@ -93,8 +104,7 @@
         <h1 class="mb-0">Francisco
           <span class="text-primary">Reis</span>
         </h1>
-        <div class="subheading mb-5">Rua Tenente M. D. Silva 5
-          6005-150 Escalos De Baixo, Castelo Branco
+        <div class="subheading mb-5">Escalos De Baixo, Castelo Branco
           ·
           <a href="mailto:fjreis@outlook.com">fjreis@outlook.com</a>
         </div>
