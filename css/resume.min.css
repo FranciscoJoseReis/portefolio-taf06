@@ -192,11 +192,13 @@ section.resume-section .resume-item .resume-date {
 }
 
 a {
-    color: beige
+    color: whitesmoke;
 }
 
 a:active,
 a:focus,
 a:hover {
-    color: #824027
+    text-decoration: underline;
+    color: gray
+
 }
