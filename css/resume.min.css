@@ -16,11 +16,6 @@
 /*google maps*/
 .google-map-container {
 
-    padding: 5px;
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 0;
     border-radius: 20px;
      filter: hue-rotate(45deg);
 }
