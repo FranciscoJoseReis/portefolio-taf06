@@ -4,6 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
+ table a:link {
+     text-decoration: underline;
+ }
+
 #page-top {
     background: url(../img/fundo.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
