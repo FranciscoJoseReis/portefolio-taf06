@@ -4,8 +4,9 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
- table a:link {
+ .tab a:link {
      text-decoration: underline;
+    
  }
 
 #page-top {
