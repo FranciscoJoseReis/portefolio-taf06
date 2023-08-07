@@ -40,65 +40,64 @@
 
 <body id="page-top">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none"><img src="img/logo.png" alt=""></span>
-      <span class="d-none d-lg-block">
-       <img src="img/logo.png" alt=""> <br>
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.png" alt="">
-      </span>
-    </a>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-block d-lg-none"><img src="img/logo.png" alt=""></span>
+    <span class="d-none d-lg-block">
+      <img src="img/logo.png" alt=""> <br>
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.png" alt="">
+    </span>
+  </a>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li>
-          <div id="current_date" style="color: aliceblue;"></div>
-          <script>
-            var data = moment().locale('pt-br').format('dddd, D [de] MMMM [de] YYYY');
-            document.getElementById("current_date").innerHTML = data;
-          </script>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">Apresentação</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#Autobiografia">Autobiografia</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#Estudos">Estudos & Certificações</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#Cursos">Curso</a>
-        </li>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li>
+        <div id="current_date" style="color: aliceblue;"></div>
+        <script>
+          var data = moment().locale('pt-br').format('dddd, D [de] MMMM [de] YYYY');
+          document.getElementById("current_date").innerHTML = data;
+        </script>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#about">Apresentação</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#Autobiografia">Autobiografia</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#Estudos">Estudos & Certificações</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#Cursos">Curso</a>
+      </li>
 
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#Referencial">Referencial</a>
-        </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#Referencial">Referencial</a>
+      </li>
 
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#estagio">Estágio</a>
-        </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#estagio">Estágio</a>
+      </li>
 
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#final">Balanço final do curso</a>
-        </li>
-        <li class="small copyright-text">Copyright&copy; 2023.Portfólio TAF06 Designed by <a
-            href="https://franciscojosereis.github.io/portefolio/" target="\">Francisco Reis</a></li>
-      </ul>
-    </div>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#final">Balanço final do curso</a>
+      </li>
+      <li class="small copyright-text">Copyright&copy; 2023.Portfólio TAF06 Designed by <a
+          href="https://franciscojosereis.github.io/portefolio/" target="\">Francisco Reis</a></li>
+    </ul>
+  </div>
 
-  </nav>
+</nav>
 
-  <div class="">
- <!--container-fluid p-0-->
+  <div class="container-fluid p-0">
 
-    <section class="resume-section" id="about">
-      <div class="">
+    <section class="resume-section p-3 p-lg-5 flex-column" id="about">
+      <div class="my-auto">
         <h1 class="mb-0">Francisco
           <span class="text-primary">Reis</span>
         </h1>
@@ -106,8 +105,8 @@
           ·
           <a href="mailto:fjreis@outlook.com">fjreis@outlook.com</a>
         </div>
-        <div class="">
-          <div class="">
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
             <div class="text-justify">
               <p>
                 Bem-vindo ao meu portfólio de aprendizagem. <br>
@@ -171,11 +170,11 @@
       </div>
     </section>
 
-    <section class="resume-section p-3 p-lg-5" id="Autobiografia">
+    <section class="resume-section p-3 p-lg-5 flex-column" id="Autobiografia">
       <div class="my-auto">
         <h2 class="mb-5">Autobiografia</h2>
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-contentmr-auto">
+          <div class="resume-content mr-auto">
             <h3 class="mb-0">Sobre mim</h3>
             <div class="text-justify">
               <p>
@@ -240,7 +239,7 @@
       </div>
     </section>
 
-    <section class="resume-section p-3 p-lg-5" id="Estudos">
+    <section class="resume-section p-3 p-lg-5 flex-column" id="Estudos">
       <div class="my-auto">
         <h2 class="mb-5">Estudos & Certificações</h2>
         <ul class="fa-ul mb-3" style="font-size: 17px;">
@@ -269,7 +268,7 @@
       </div>
     </section>
 
-    <section class="resume-section p-3 p-lg-5" id="Cursos">
+    <section class="resume-section p-3 p-lg-5 flex-column" id="Cursos">
       <div class="my-auto">
         <h2 class="mb-0">Curso</h2>
         <h3>Técnico/a Auxiliar de Farmácia</h3>
@@ -353,7 +352,7 @@
       </div>
     </section>
 
-    <section class="resume-section p-3 p-lg-5" id="Referencial">
+    <section class="resume-section p-3 p-lg-5 flex-column" id="Referencial">
       <div class="my-auto">
         <h2 class="mb-5">Referencial</h2>
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
@@ -379,7 +378,7 @@
                     </strong>
                   </a>
                 </td>
-                <td>Elsa Grilo</td>
+                <td >Elsa Grilo</td>
                 <td>25</td>
                 <td>30/01/2023</td>
               </tr>
@@ -953,7 +952,7 @@
 
     </section>
 
-    <section class="resume-section p-3 p-lg-5" id="estagio">
+    <section class="resume-section p-3 p-lg-5 flex-column" id="estagio">
       <div class="my-auto">
 
         <h2 class="mb-5">Local de estagio</h2>
@@ -1015,7 +1014,7 @@
       </div>
     </section>
 
-    <section class="resume-section p-3 p-lg-5" id="final">
+    <section class="resume-section p-3 p-lg-5 flex-column" id="final">
       <div class="my-auto">
         <h2 class="mb-5">Balanço final do curso</h2>
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
