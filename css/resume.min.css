@@ -157,7 +157,7 @@ h2 {
     #sideNav .navbar-brand {
         display: flex;
         margin: auto auto 0;
-        padding: .5rem
+       /*padding: .5rem*/
     }
 
     #sideNav .navbar-brand .img-profile {
