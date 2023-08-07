@@ -49,19 +49,20 @@
       </span>
     </a>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
-    <p>
-    <div id="current_date" style="color: aliceblue;"></div>
-    </p>
-        <script>
-          var data = moment().locale('pt-br').format('dddd, D [de] MMMM [de] YYYY');
-          document.getElementById("current_date").innerHTML = data;
-        </script>
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
+        <li>
+          <div id="current_date" style="color: aliceblue;"></div>
+          <script>
+            var data = moment().locale('pt-br').format('dddd, D [de] MMMM [de] YYYY');
+            document.getElementById("current_date").innerHTML = data;
+          </script>
+        </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#about">Apresentação</a>
         </li>
@@ -86,13 +87,13 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#final">Balanço final do curso</a>
         </li>
-                <li class="small copyright-text">Copyright&copy; 2023.Portfólio TAF06 Designed by <a
-                    href="https://franciscojosereis.github.io/portefolio/" target="\">Francisco Reis</a></li>
+        <li class="small copyright-text">Copyright&copy; 2023.Portfólio TAF06 Designed by <a
+            href="https://franciscojosereis.github.io/portefolio/" target="\">Francisco Reis</a></li>
       </ul>
 
 
     </div>
-  
+
   </nav>
 
   <div class="container-fluid p-0">
@@ -379,7 +380,7 @@
                     </strong>
                   </a>
                 </td>
-                <td >Elsa Grilo</td>
+                <td>Elsa Grilo</td>
                 <td>25</td>
                 <td>30/01/2023</td>
               </tr>
