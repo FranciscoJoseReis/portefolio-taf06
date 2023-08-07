@@ -52,6 +52,10 @@
     <p>
     <div id="current_date" style="color: aliceblue;"></div>
     </p>
+        <script>
+          var data = moment().locale('pt-br').format('dddd, D [de] MMMM [de] YYYY');
+          document.getElementById("current_date").innerHTML = data;
+        </script>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
