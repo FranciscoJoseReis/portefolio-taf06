@@ -6,7 +6,7 @@
 
  table a:link {
      text-decoration: underline;
-     font-size: 13px;
+     font-size: 16px;
  }
 
  .wp-table tr {
@@ -210,6 +210,10 @@ section.resume-section .resume-item .resume-date {
 }
 
 @media (min-width:992px) {
+
+table a:link {
+        font-size: 13px;}
+
     section.resume-section {
         padding-top: 3rem !important;
         padding-bottom: 3rem !important
