@@ -9142,6 +9142,11 @@ a.bg-dark:hover {
 }
 
 @media (min-width:768px) {
+
+table a:link {
+        font-size: 13px;
+    }
+
     .text-md-left {
         text-align: left !important
     }
