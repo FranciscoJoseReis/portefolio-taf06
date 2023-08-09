@@ -9143,7 +9143,7 @@ a.bg-dark:hover {
 
 @media (min-width:768px) {
 
-table a:link {
+.wp-table table a:link {
         font-size: 13px;
     }
 
