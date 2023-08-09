@@ -200,6 +200,10 @@ section.resume-section .resume-item .resume-date {
 }
 
 @media (min-width:768px) {
+    table a:link {
+            font-size: 13px;
+        }
+        
     section.resume-section {
         min-height: 100vh
     }
@@ -211,8 +215,7 @@ section.resume-section .resume-item .resume-date {
 
 @media (min-width:992px) {
 
-table a:link {
-        font-size: 13px;}
+
 
     section.resume-section {
         padding-top: 3rem !important;
