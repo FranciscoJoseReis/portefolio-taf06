@@ -147,7 +147,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
-    
+
     background-color: #fff
 }
 
@@ -691,13 +691,12 @@ pre code {
 
 @media (min-width:576px) {
     .text-justify {
-        
-            font-size: 9px !important;
-    
-        }
+        font-size: 16px !important;
+    }
+
     .wp-table table a:link {
-            font-size: 9px !important;
-        }
+        font-size: 9px !important;
+    }
 
     .container {
         max-width: 540px
@@ -9109,9 +9108,8 @@ a.bg-dark:hover {
 
 .text-justify {
     padding-right: 1px;
-    font-size: 16px;
+    font-size: 16px !important;
     margin-right: 0px;
-
 }
 
 .text-nowrap {
@@ -9137,13 +9135,10 @@ a.bg-dark:hover {
 }
 
 @media (min-width:576px) {
-
     .text-justify {
-            padding-right: 1px;
-            font-size: 10px;
-            margin-right: 0px;
-    
-        }
+        font-size: 8px;
+    }
+
     .text-sm-left {
         text-align: left !important
     }
@@ -9159,7 +9154,7 @@ a.bg-dark:hover {
 
 @media (min-width:768px) {
 
-.wp-table table a:link {
+    .wp-table table a:link {
         font-size: 10px !important;
     }
 
