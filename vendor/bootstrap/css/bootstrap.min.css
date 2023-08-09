@@ -690,6 +690,11 @@ pre code {
 }
 
 @media (min-width:576px) {
+    .text-justify {
+        
+            font-size: 9px !important;
+    
+        }
     .wp-table table a:link {
             font-size: 9px !important;
         }
@@ -9132,6 +9137,13 @@ a.bg-dark:hover {
 }
 
 @media (min-width:576px) {
+
+    .text-justify {
+            padding-right: 1px;
+            font-size: 10px;
+            margin-right: 0px;
+    
+        }
     .text-sm-left {
         text-align: left !important
     }
