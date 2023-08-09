@@ -6,6 +6,7 @@
 
  table a:link {
      text-decoration: underline;
+     font-size: 14px;
  }
 
  .wp-table tr {
