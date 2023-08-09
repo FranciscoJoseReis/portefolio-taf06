@@ -690,6 +690,10 @@ pre code {
 }
 
 @media (min-width:576px) {
+    .wp-table table a:link {
+            font-size: 9px;
+        }
+
     .container {
         max-width: 540px
     }
@@ -9144,7 +9148,7 @@ a.bg-dark:hover {
 @media (min-width:768px) {
 
 .wp-table table a:link {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .text-md-left {
