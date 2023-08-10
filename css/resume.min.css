@@ -32,7 +32,7 @@ a:link {
  }
 
  .wp-table {
-    font-size: calc(11px + 0.390625vw);
+    font-size: calc(10px + 0.390625vw);
      border: 1px solid #ccc;
      border-collapse: collapse;
      border-spacing: 0;
