@@ -4,26 +4,24 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
- table a:link {
-     text-decoration: underline;
- }
+
 
  .wp-table tr {
-     border-bottom: 1px solid #ddd;
+     border-bottom: 2px solid #ddd;
  }
 
  .wp-table th:first-child,
  .wp-table td:first-child {
-     padding-left: 16px;
+     padding-left: 10px;
  }
 
 
  .wp-table td,
  .wp-table th {
-     padding: 8px 8px;
+     padding: 4px 2px 4px 2px;
      display: table-cell;
      text-align: left;
-     vertical-align: top;
+     vertical-align: center;
  }
 
  .wp-table th {
@@ -31,7 +29,6 @@
  }
 
  .wp-table {
-     font-size: 17px !important;
      border: 1px solid #ccc;
      border-collapse: collapse;
      border-spacing: 0;
@@ -64,7 +61,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
+    font-size: 1vw;
     margin: 5px 5px;
     cursor: pointer;
     border-radius: 100%;
@@ -72,7 +69,7 @@
 
 .text-indentado {
     text-indent: 20px;
-    font-size: 17px;
+    font-size: 1vw;
 }
 
 body {
@@ -85,7 +82,8 @@ body {
 @media (min-width:992px) {
     body {
         padding-top: 0;
-        padding-left: 17rem
+        padding-left: 15rem;
+        padding-right: 2rem;
     }
 }
 
@@ -190,15 +188,15 @@ h2 {
 
 section.resume-section {
     border-bottom: 1px solid #dee2e6;
-    padding-top: 5rem !important;
-    padding-bottom: 5rem !important
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important
 }
 
 section.resume-section .resume-item .resume-date {
     min-width: none
 }
 
-@media (min-width:768px) {
+@media (min-width:768px) {      
     section.resume-section {
         min-height: 100vh
     }
@@ -209,6 +207,9 @@ section.resume-section .resume-item .resume-date {
 }
 
 @media (min-width:992px) {
+
+
+
     section.resume-section {
         padding-top: 3rem !important;
         padding-bottom: 3rem !important
