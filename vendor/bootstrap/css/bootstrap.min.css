@@ -7547,6 +7547,7 @@ a.bg-dark:hover {
 .mb-0,
 .my-0 {
     margin-bottom: 0 !important
+    
 }
 
 .ml-0,
@@ -9100,7 +9101,7 @@ a.bg-dark:hover {
 
 .text-justify {
     padding-right: 1px;
-    font-size: 17px;
+    font-size: calc(15px + 0.390625vw);
     margin-right: 0px;
 
 }
