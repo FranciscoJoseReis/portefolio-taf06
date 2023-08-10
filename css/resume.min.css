@@ -6,6 +6,7 @@
 
  table a:link {
      text-decoration: underline;
+     font-size: 15px;
  }
 
  .wp-table tr {
@@ -20,10 +21,10 @@
 
  .wp-table td,
  .wp-table th {
-     padding: 8px 8px;
+     padding: 3px 3px;
      display: table-cell;
      text-align: left;
-     vertical-align: top;
+     vertical-align: center;
  }
 
  .wp-table th {
@@ -31,7 +32,7 @@
  }
 
  .wp-table {
-     font-size: 17px !important;
+    
      border: 1px solid #ccc;
      border-collapse: collapse;
      border-spacing: 0;
