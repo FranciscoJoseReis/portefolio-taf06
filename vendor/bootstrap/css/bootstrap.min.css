@@ -7546,8 +7546,8 @@ a.bg-dark:hover {
 
 .mb-0,
 .my-0 {
-    margin-bottom: 0 !important
-
+    margin-bottom: 0 !important;
+   
 }
 
 .ml-0,
@@ -7667,7 +7667,8 @@ a.bg-dark:hover {
 
 .mb-5,
 .my-5 {
-    margin-bottom: 3rem !important
+    margin-bottom: 3rem !important;
+    font-size: calc(20px + 0.390625vw);
 }
 
 .ml-5,
