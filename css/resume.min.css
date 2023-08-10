@@ -5,40 +5,48 @@
  */
 
 a:link {
-     text-decoration: underline;
+    text-decoration: underline;
     font-weight: bold;
- }
+}
 
- .wp-table tr {
-     border-bottom: 1px solid #ddd;
- }
+.wp-table a {
+    font-size: calc(13px + 0.390625vw);
+}
 
- .wp-table th:first-child,
- .wp-table td:first-child {
-     padding-left: 16px;
- }
+.wp-table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.wp-table th:first-child,
+.wp-table td:first-child {
+    padding-left: 16px;
+}
 
 
- .wp-table td,
- .wp-table th {
-     padding: 3px 3px;
-     display: table-cell;
-     text-align: left;
-     vertical-align: center;
- }
+.wp-table td,
+.wp-table th {
+    padding: 3px 3px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: center;
+}
 
- .wp-table th {
-     font-weight: bold;
- }
+.wp-table th {
+    font-weight: bold;
+    font-size: calc(12px + 0.390625vw);
+}
 
- .wp-table {
-    font-size: calc(10px + 0.390625vw);
-     border: 1px solid #ccc;
-     border-collapse: collapse;
-     border-spacing: 0;
-     width: 100%;
-     display: table;
- }
+.wp-table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+}
+
+.wp-table td {
+    font-size: calc(9px + 0.390625vw);
+}
 
 #page-top {
     background: url(../img/fundo.jpg) no-repeat center center fixed;
@@ -51,9 +59,8 @@ a:link {
 
 /*google maps*/
 .google-map-container {
-
     border-radius: 20px;
-     filter: hue-rotate(45deg);
+    filter: hue-rotate(45deg);
 }
 
 
@@ -158,7 +165,7 @@ h2 {
     #sideNav .navbar-brand {
         display: flex;
         margin: auto auto 0;
-       /*padding: .5rem*/
+        /*padding: .5rem*/
     }
 
     #sideNav .navbar-brand .img-profile {
@@ -233,15 +240,16 @@ a:focus,
 a:hover {
     text-decoration: underline;
     color: gray
-
 }
 
-.mb-0{
-font-size: calc(50px + 0.390625vw);
+.mb-0 {
+    font-size: calc(50px + 0.390625vw);
 }
-.mb-5{
+
+.mb-5 {
     font-size: calc(19px + 0.390625vw);
 }
-.text-justify{
+
+.text-justify {
     font-size: calc(12px + 0.390625vw);
 }
