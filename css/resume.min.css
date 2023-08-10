@@ -61,16 +61,13 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1vw;
+    font-size: 12px;
     margin: 5px 5px;
     cursor: pointer;
     border-radius: 100%;
 }
 
-.text-indentado {
-    text-indent: 20px;
-    font-size: 1vw;
-}
+
 
 body {
 
@@ -112,7 +109,7 @@ h2 {
     text-transform: uppercase;
     font-weight: 500;
     font-family: 'Saira Extra Condensed', serif;
-    font-size: 1.35rem
+    
 }
 
 .list-social-icons a {
