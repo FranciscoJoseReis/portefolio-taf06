@@ -6,7 +6,7 @@
 
  table a:link {
      text-decoration: underline;
-    font-size: calc(9px + 0.390625vw);
+    font-weight: bold;
  }
 
  .wp-table tr {
@@ -32,7 +32,7 @@
  }
 
  .wp-table {
-    font-size: calc(12px + 0.390625vw);
+    font-size: calc(9px + 0.390625vw);
      border: 1px solid #ccc;
      border-collapse: collapse;
      border-spacing: 0;
