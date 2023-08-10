@@ -147,7 +147,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
-    
+
     background-color: #fff
 }
 
@@ -690,16 +690,37 @@ pre code {
 }
 
 @media (min-width:576px) {
+    .text-indentado {
+        font-size: 12px;
+    }
+
+    .wp-table {
+        font-size: 12px !important;
+    }
+
     .container {
         max-width: 540px
     }
+
+    .mb-0 {
+        font-size: 30px;
+    }
+
+    .mb-5 {
+        font-size: 20px;
+    }
+    .mb-1{
+    font-size: 20px;
+    }
+
 }
 
-@media (min-width:768px) {
-    .container {
-        max-width: 720px
+    @media (min-width:768px) {
+        .container {
+            max-width: 720px
+        }
     }
-}
+
 
 @media (min-width:992px) {
     .container {
@@ -9100,9 +9121,8 @@ a.bg-dark:hover {
 
 .text-justify {
     padding-right: 1px;
-    font-size: 19px;
+    font-size: 16px !important;
     margin-right: 0px;
-
 }
 
 .text-nowrap {
@@ -9128,6 +9148,10 @@ a.bg-dark:hover {
 }
 
 @media (min-width:576px) {
+    .text-justify {
+        font-size: 16px;
+    }
+
     .text-sm-left {
         text-align: left !important
     }
@@ -9142,6 +9166,9 @@ a.bg-dark:hover {
 }
 
 @media (min-width:768px) {
+
+
+
     .text-md-left {
         text-align: left !important
     }
@@ -9306,5 +9333,3 @@ a.text-dark:hover {
 .invisible {
     visibility: hidden !important
 }
-
-/*# sourceMappingURL=bootstrap.min.css.map */
