@@ -65,7 +65,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: calc(14px + 0.390625vw);
+    font-size: calc(9px + 0.390625vw);
     margin: 5px 5px;
     cursor: pointer;
     border-radius: 100%;
@@ -240,8 +240,8 @@ a:hover {
 font-size: calc(50px + 0.390625vw);
 }
 .mb-5{
-    font-size: calc(20px + 0.390625vw);
+    font-size: calc(19px + 0.390625vw);
 }
 .text-justify{
-    font-size: calc(14px + 0.390625vw);
+    font-size: calc(12px + 0.390625vw);
 }
