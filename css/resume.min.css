@@ -6,7 +6,7 @@
 
  table a:link {
      text-decoration: underline;
-     font-size: 15px;
+     font-size: calc(12px + 0.390625vw);
  }
 
  .wp-table tr {
@@ -65,7 +65,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
+    font-size: calc(14px + 0.390625vw);
     margin: 5px 5px;
     cursor: pointer;
     border-radius: 100%;
@@ -73,7 +73,7 @@
 
 .text-indentado {
     text-indent: 20px;
-    font-size: 17px;
+    font-size: calc(15px + 0.390625vw);
 }
 
 body {
