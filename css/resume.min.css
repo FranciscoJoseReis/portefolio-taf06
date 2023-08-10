@@ -6,6 +6,7 @@
 
  table a:link {
      text-decoration: underline;
+    font-size: calc(9px + 0.390625vw);
  }
 
  .wp-table tr {
@@ -31,7 +32,7 @@
  }
 
  .wp-table {
-    font-size: calc(10px + 0.390625vw);
+    font-size: calc(12px + 0.390625vw);
      border: 1px solid #ccc;
      border-collapse: collapse;
      border-spacing: 0;
@@ -239,8 +240,8 @@ a:hover {
 font-size: calc(50px + 0.390625vw);
 }
 .mb-5{
-    font-size: calc(22px + 0.390625vw);
+    font-size: calc(20px + 0.390625vw);
 }
 .text-justify{
-    font-size: calc(12px + 0.390625vw);
+    font-size: calc(14px + 0.390625vw);
 }
