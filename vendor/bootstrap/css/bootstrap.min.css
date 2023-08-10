@@ -9132,7 +9132,7 @@ a.bg-dark:hover {
 
 @media (min-width:576px) {
     .text-justify {
-        font-size: 8px;
+        font-size: 1vw;
     }
 
     .text-sm-left {
