@@ -257,6 +257,10 @@ a:hover {
 .mb-6 {
     font-size: calc(25px + 0.390625vw);
 }
+.mb-7{
+    font-size: calc(12px + 0.390625vw);
+   
+}
 
 .text-justify {
     font-size: calc(10px + 0.390625vw);
