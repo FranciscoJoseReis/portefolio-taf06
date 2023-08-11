@@ -58,6 +58,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
+          <div id="current_date" style="color: aliceblue;text-transform: uppercase;"></div>
+          <script>
+            var data = moment().locale('pt-br').format('dddd, D [de] MMMM [de] YYYY');
+            document.getElementById("current_date").innerHTML = data;
+          </script>
+        </li>
+        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#about">Apresentação</a>
         </li>
         <li class="nav-item">
@@ -80,7 +87,8 @@
         </li>
         <li class="small copyright-text">
           Copyright&copy; 2023.Portfólio TAF06 Designed by
-          <a href="https://franciscojosereis.github.io/portefolio/" target="\" style=" text-decoration: underline;">Francisco Reis</a>
+          <a href="https://franciscojosereis.github.io/portefolio/" target="\"
+            style=" text-decoration: underline;">Francisco Reis</a>
         </li>
       </ul>
     </div>
@@ -96,7 +104,7 @@
         <div class="subheading mb-5">
           Escalos De Baixo, Castelo Branco
           ·
-          <a href="mailto:fjreis@outlook.com" style=" text-decoration: underline;" >fjreis@outlook.com</a>
+          <a href="mailto:fjreis@outlook.com" style=" text-decoration: underline; text-transform: lowercase;">fjreis@outlook.com</a>
         </div>
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
           <div class="resume-content mr-auto">
@@ -1014,10 +1022,10 @@
         <div class="row">
           <div class="col-md-6">
             <div class="text-left">
-              <ul class="fa-ul text-justify" >
+              <ul class="fa-ul text-justify">
                 <li>
                   <i class="fa-li fa fa-facebook"></i>
-                  <a href="https://www.facebook.com/profile.php?id=100063282185782">
+                  <a href="https://www.facebook.com/profile.php?id=100063282185782" style="text-decoration: underline;">
                     Farmácia Forum Castelo
                     Branco
                     </del>
@@ -1025,23 +1033,22 @@
                 </li>
                 <li>
                   <i class="fa-li fa fa-map"></i>
-                  <a
-                    href="https://www.google.com/maps/dir//Forum+Castelo+Branco,+Av.+Prof.+Dr.+Egas+Moniz,+6000-459+Castelo+Branco/@39.807858,-7.51699,16z/data=!4m9!4m8!1m0!1m5!1m1!1s0xd3d5eb071cd02c9:0xfa13d367d0b082d!2m2!1d-7.5148196!2d39.8080899!3e0?hl=pt-PT&entry=ttu">
+                  <a href="https://www.google.com/maps/dir//Forum+Castelo+Branco,+Av.+Prof.+Dr.+Egas+Moniz,+6000-459+Castelo+Branco/@39.807858,-7.51699,16z/data=!4m9!4m8!1m0!1m5!1m1!1s0xd3d5eb071cd02c9:0xfa13d367d0b082d!2m2!1d-7.5148196!2d39.8080899!3e0?hl=pt-PT&entry=ttu" style="text-decoration: underline;">
                     Av. Prof. Dr. Egas
                     Moniz 901, 6000-901 Castelo Branco
                   </a>
                 </li>
                 <li>
                   <i class="fa-li fa fa-envelope"></i>
-                  <a href="mailto:tanaraexpressocbranco@farmaciastanara.pt">Farmácia Forum Castelo Branco</a>
+                  <a href="mailto:tanaraexpressocbranco@farmaciastanara.pt" style="text-decoration: underline;">tanaraexpressocbranco@farmaciastanara.pt</a>
                 </li>
                 <li>
                   <i class="fa-li fa fa-phone"></i>
-                  272346357
+                  <a href="tel:272346357" style="text-decoration: underline;">272346357</a>
                 </li>
                 <li>
                   <i class="fa-li fa fa-file-archive-o"></i>
-                  <a href="#">Relatorio</a>
+                  <a href="#" style="text-decoration: underline;">Relatorio</a>
                 </li>
               </ul>
             </div>
