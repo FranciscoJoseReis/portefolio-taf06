@@ -10,6 +10,7 @@ a:link {
 
 .wp-table a {
     text-decoration: underline;
+    
 
 }
 
@@ -41,6 +42,7 @@ a:link {
 }
 
 .wp-table {
+    font-size: calc(9.5px + 0.390625vw);
     line-height: normal;
     border: 1px solid #ccc;
     border-collapse: collapse;
