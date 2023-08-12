@@ -19,13 +19,13 @@ a:link {
 
 .wp-table th:first-child,
 .wp-table td:first-child {
-    padding-left: 16px;
+    padding-left: 2px;
 }
 
 
 .wp-table td,
 .wp-table th {
-    padding: 3px 3px;
+    padding: 3px 3px 3px 2px;
     display: table-cell;
     text-align: left;
     vertical-align: center;
