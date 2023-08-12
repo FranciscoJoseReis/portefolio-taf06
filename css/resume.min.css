@@ -258,19 +258,17 @@ a:hover {
     color: gray
 }
 
-.mb-0 {
+.calc40 {
     font-size: calc(40px + 0.390625vw);
 }
 
-.mb-5 {
-    font-size: calc(17px + 0.390625vw);
+.calc19 {
+    font-size: calc(19px + 0.390625vw);
 }
 
-.mb-3 {
-    font-size: calc(12px + 0.390625vw);
-}
 
-.mb-6 {
+
+.calc30 {
     font-size: calc(30px + 0.390625vw);
 }
 
@@ -279,6 +277,14 @@ a:hover {
 
 }
 
+.calc8 {
+    font-size: calc(8px + 0.390625vw);
+}
+
 .calc9{
     font-size: calc(9px + 0.390625vw);
+}
+
+.calc10 {
+    font-size: calc(10px + 0.390625vw);
 }
