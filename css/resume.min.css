@@ -38,12 +38,7 @@ a:link {
     font-size: calc(12px + 0.390625vw);
 }
 
-.wp-table td {
-    font-size: calc(9.5px + 0.390625vw);
-}
-
 .wp-table {
-    font-size: calc(9.5px + 0.390625vw);
     line-height: normal;
     border: 1px solid #ccc;
     border-collapse: collapse;
