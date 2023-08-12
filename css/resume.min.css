@@ -260,30 +260,32 @@ a:hover {
 }
 
 .calc40 {
-    font-size: calc(40px + 0.390625vw);
+    font-size: calc(42px + (46 - 42) * ((100vw - 360px) / (1716 - 360)));
 }
 
 .calc19 {
-    font-size: calc(19px + 0.390625vw);
+    font-size: calc(20px + (26 - 20) * ((100vw - 360px) / (1716 - 360)));
 }
 
 
 
 .calc30 {
-    font-size: calc(30px + 0.390625vw);
+    font-size: calc(32px + (38 - 32) * ((100vw - 360px) / (1716 - 360)));
 }
 
 .calc14 {
-    font-size: calc(14px + 0.390625vw);
+    font-size: calc(16px + (18 - 16) * ((100vw - 360px) / (1716 - 360)));
 }
 
 
 .calc10 {
-    font-size: calc(10px + 0.390625vw);
+    font-size: calc(12px + (18 - 12) * ((100vw - 360px) / (1716 - 360)));
 }
 
 .calc9 {
-    font-size: calc(9px + 0.390625vw);
+   /*font-size: calc(9px + 0.390625vw);*/
+    font-size: calc(11px + (17 - 11) * ((100vw - 360px) / (1716 - 360)));
+
 }
 
 .calc8 {
