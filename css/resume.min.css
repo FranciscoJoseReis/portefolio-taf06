@@ -36,6 +36,9 @@ a:link {
     font-weight: bold;
     font-size: calc(12px + 0.390625vw);
 }
+.wp-table td {
+    font-size: calc(9px + 0.390625vw);
+}
 
 .wp-table {
     font-size: calc(8px + 0.390625vw);
