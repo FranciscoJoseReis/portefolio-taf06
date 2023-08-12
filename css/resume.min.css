@@ -10,8 +10,8 @@ a:link {
 
 .wp-table a {
     text-decoration: underline;
-
-
+    font-family: 'Saira', serif;
+    font-weight: 50000;
 }
 
 .wp-table tr {
