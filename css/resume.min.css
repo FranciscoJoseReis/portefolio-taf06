@@ -36,6 +36,10 @@ a:link {
     font-size: calc(12px + 0.390625vw);
 }
 
+.wp-table td {
+    font-size: calc(9.5px + 0.390625vw);
+}
+
 .wp-table {
     line-height: normal;
     border: 1px solid #ccc;
@@ -45,9 +49,8 @@ a:link {
     display: table;
 }
 
-.wp-table td {
-    font-size: calc(9px + 0.390625vw);
-}
+
+
 
 #page-top {
     background: url(../img/fundo.jpg) no-repeat center center fixed;
