@@ -260,34 +260,32 @@ a:hover {
 }
 
 .calc40 {
-    font-size: calc(40px + (46 - 40) * ((100vw - 360px) / (1716 - 360)));
+    font-size: calc(40px + (47 - 40) * ((100vw - 360px) / (1716 - 360)));
 }
 
 .calc19 {
-    font-size: calc(19px + (25 - 19) * ((100vw - 360px) / (1716 - 360)));
+    font-size: calc(19px + (26 - 19) * ((100vw - 360px) / (1716 - 360)));
 }
 
-
-
 .calc30 {
-    font-size: calc(30px + (36 - 30) * ((100vw - 360px) / (1716 - 360)));
+    font-size: calc(30px + (37 - 30) * ((100vw - 360px) / (1716 - 360)));
 }
 
 .calc14 {
-    font-size: calc(14px + (16 - 14) * ((100vw - 360px) / (1716 - 360)));
+    font-size: calc(14px + (21 - 14) * ((100vw - 360px) / (1716 - 360)));
 }
 
 
 .calc10 {
-    font-size: calc(10px + (16 - 10) * ((100vw - 360px) / (1716 - 360)));
+    font-size: calc(10px + (17 - 10) * ((100vw - 360px) / (1716 - 360)));
 }
 
 .calc9 {
-   /*font-size: calc(9px + 0.390625vw);*/
-    font-size: calc(9px + (15 - 9) * ((100vw - 360px) / (1716 - 360)));
+    /*font-size: calc(9px + 0.390625vw);*/
+    font-size: calc(9px + (16 - 9) * ((100vw - 360px) / (1716 - 360)));
 
 }
 
 .calc8 {
-    font-size: calc(8px + (14 - 8) * ((100vw - 360px) / (1600 - 360)));
+    font-size: calc(8px + (15 - 8) * ((100vw - 360px) / (1600 - 360)));
 }
