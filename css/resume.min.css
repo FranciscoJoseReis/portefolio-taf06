@@ -9,6 +9,7 @@ a:link {
 }
 
 .wp-table a {
+    font-size: calc(9.5px + 0.390625vw);
     text-decoration: underline;
     
 
