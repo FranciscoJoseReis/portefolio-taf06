@@ -41,7 +41,7 @@ a:link {
 }
 
 .wp-table {
-    font-size: calc(8px + 0.390625vw);
+    font-size: calc(9px + 0.390625vw);
     line-height: normal;
     border: 1px solid #ccc;
     border-collapse: collapse;
@@ -97,11 +97,6 @@ iframe {
     margin: 5px 5px;
     cursor: pointer;
     border-radius: 100%;
-}
-
-.text-indentado {
-    text-indent: 20px;
-    font-size: calc(15px + 0.390625vw);
 }
 
 body {
@@ -284,6 +279,6 @@ a:hover {
 
 }
 
-.text-justify {
-    font-size: calc(9.5px + 0.390625vw);
+.calc9{
+    font-size: calc(9px + 0.390625vw);
 }
