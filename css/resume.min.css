@@ -51,9 +51,6 @@ a:link {
     display: table;
 }
 
-
-
-
 #page-top {
     background: url(../img/fundo.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -101,10 +98,9 @@ iframe {
 }
 
 body {
-
     font-family: 'Open Sans', serif;
     padding-top: 54px;
-    color: whitesmoke
+    color: #f8f8ff
 }
 
 @media (min-width:992px) {
@@ -121,6 +117,12 @@ h4,
 h5,
 h6 {
     font-family: 'Saira Extra Condensed', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: wheat
+}
+
+b {
     font-weight: 700;
     text-transform: uppercase;
     color: wheat
@@ -249,7 +251,8 @@ section.resume-section .resume-item .resume-date {
 }
 
 a {
-    color: whitesmoke;
+    font-weight: 700;
+    color: #f0ffff
 }
 
 a:active,
