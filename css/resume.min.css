@@ -8,8 +8,6 @@ a:link {
     font-weight: bold;
 }
 .wp-table {
-    font-size: calc(12px + (19 - 12) * ((100vw - 360px) / (1716 - 360)));
-    line-height: normal;
     border: 1px solid #ccc;
     border-collapse: collapse;
     border-spacing: 0;
@@ -26,19 +24,17 @@ a:link {
 .wp-table tr {
     border-bottom: 1px solid #ddd;
 }
-
-
+ .wp-table th:first-child,
+ .wp-table td:first-child {
+     padding-left: 10px;
+ }
 
 .wp-table td,
 .wp-table th {
     padding: 3px 3px 3px 2px;
+    display: table-cell;
     text-align: left;
     vertical-align: center;
-}
-
-.wp-table th {
-    font-weight: bold;
-    font-size: calc(13px + (20 - 13) * ((100vw - 360px) / (1716 - 360)));
 }
 
 #page-top {
