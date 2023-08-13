@@ -7,6 +7,7 @@
 a:link {
     font-weight: bold;
 }
+
 .wp-table {
     border: 1px solid #ccc;
     border-collapse: collapse;
@@ -17,16 +18,17 @@ a:link {
 
 .wp-table a {
     text-decoration: underline;
-    
+
 }
 
 .wp-table tr {
     border-bottom: 1px solid #ddd;
 }
- .wp-table th:first-child,
- .wp-table td:first-child {
-     padding-left: 10px;
- }
+
+.wp-table th:first-child,
+.wp-table td:first-child {
+    padding-left: 10px;
+}
 
 .wp-table td,
 .wp-table th {
@@ -291,5 +293,11 @@ a:hover {
 .calc9 a {
     font-size: calc(7px + (14 - 7) * ((100vw - 360px) / (1600 - 360)));
     text-decoration: underline;
+
+}
+
+.calc9 th {
+    font-size: calc(9px + (16 - 9) * ((100vw - 360px) / (1716 - 360)));
+
 
 }
