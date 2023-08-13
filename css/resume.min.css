@@ -20,6 +20,7 @@ a:link {
 .wp-table a {
     text-decoration: underline;
     font-weight: 900;
+    font-size: calc(12px + (19 - 12) * ((100vw - 360px) / (1716 - 360)));
 }
 
 .wp-table tr {
