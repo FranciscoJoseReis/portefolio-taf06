@@ -8735,7 +8735,8 @@ a.bg-dark:hover {
     }
 
     .p-lg-5 {
-        padding: 3rem !important
+        padding: 3rem !important;
+        padding-right: .5rem !important;
     }
 
     .pt-lg-5,
