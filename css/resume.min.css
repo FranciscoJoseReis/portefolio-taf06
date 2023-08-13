@@ -37,10 +37,6 @@ a:link {
     font-size: calc(14px + (20 - 14) * ((100vw - 360px) / (1716 - 360)));
 }
 
-.wp-table td{
-    font-size: calc(10px + (17 - 10) * ((100vw - 360px) / (1716 - 360)));
-}
-
 .wp-table {
     line-height: normal;
     border: 1px solid #ccc;
