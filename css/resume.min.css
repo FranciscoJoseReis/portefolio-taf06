@@ -7,11 +7,19 @@
 a:link {
     font-weight: bold;
 }
+.wp-table {
+    font-size: calc(11px + (18 - 11) * ((100vw - 360px) / (1716 - 360)));
+    line-height: normal;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+}
 
 .wp-table a {
     text-decoration: underline;
     font-weight: 900;
-    font-size: calc(10px + (17 - 10) * ((100vw - 360px) / (1716 - 360)));
 }
 
 .wp-table tr {
@@ -35,15 +43,6 @@ a:link {
 .wp-table th {
     font-weight: bold;
     font-size: calc(12px + (19 - 12) * ((100vw - 360px) / (1716 - 360)));
-}
-
-.wp-table {
-    line-height: normal;
-    border: 1px solid #ccc;
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-    display: table;
 }
 
 #page-top {
