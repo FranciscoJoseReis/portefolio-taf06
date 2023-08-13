@@ -38,7 +38,7 @@ a:link {
 }
 
 .wp-table td{
-    font-size: calc(13px + (19 - 13) * ((100vw - 360px) / (1716 - 360)));
+    font-size: calc(10px + (17 - 10) * ((100vw - 360px) / (1716 - 360)));
 }
 
 .wp-table {
