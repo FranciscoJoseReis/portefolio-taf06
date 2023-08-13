@@ -284,7 +284,7 @@ a:hover {
     font-size: calc(8px + (15 - 8) * ((100vw - 360px) / (1600 - 360)));
 }
 
-.calc9 a {
+.calc8 a {
     text-decoration: underline;
 
 }
