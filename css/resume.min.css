@@ -38,7 +38,7 @@ a:link {
 }
 
 .wp-table {
-    font-size: calc(12px + (19 - 12) * ((100vw - 360px) / (1716 - 360)));
+    font-size: calc(19px + (26 - 19) * ((100vw - 360px) / (1716 - 360)));
     line-height: normal;
     border: 1px solid #ccc;
     border-collapse: collapse;
