@@ -254,12 +254,28 @@ a:hover {
     font-size: calc(7px + (14 - 7) * ((100vw - 360px) / (1600 - 360)));
 }
 
-.calc9 a {
-    font-size: calc(7px + (14 - 7) * ((100vw - 360px) / (1600 - 360)));
+.tab {
+    border: 1px solid #ccc;
+    font-size: calc(9px + (16 - 9) * ((100vw - 360px) / (1716 - 360)));
+    padding: 4px;
+    text-align: left;
+    vertical-align: center;
+}
+
+.tab tr {
+    border: 1px solid #ccc;
+}
+
+.tab a {
     text-decoration: underline;
 
 }
 
-.calc9 th {
+.tab th:first-child,
+.tab td:first-child {
+    padding-left: 10px;
+}
+
+.tab th {
     font-size: calc(10px + (17 - 10) * ((100vw - 360px) / (1716 - 360)));
 }
