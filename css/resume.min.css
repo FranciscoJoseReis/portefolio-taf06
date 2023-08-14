@@ -267,6 +267,7 @@ a:hover {
 }
 
 .tab a {
+    font-size: calc(8px + (15 - 8) * ((100vw - 360px) / (1600 - 360)));
     text-decoration: underline;
 
 }
