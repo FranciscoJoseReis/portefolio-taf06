@@ -147,7 +147,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
-    
+    text-align: left;
     background-color: #fff
 }
 
@@ -222,6 +222,7 @@ dfn {
     font-style: italic
 }
 
+b,
 strong {
     font-weight: bolder
 }
@@ -714,9 +715,9 @@ pre code {
 
 .container-fluid {
     width: 100%;
-    padding-right: 2px;
+    padding-right: 15px;
     padding-left: 15px;
-    margin-right: 2px;
+    margin-right: auto;
     margin-left: auto
 }
 
@@ -8735,8 +8736,7 @@ a.bg-dark:hover {
     }
 
     .p-lg-5 {
-        padding: 3rem !important;
-        padding-right: .5rem !important;
+        padding: 3rem !important
     }
 
     .pt-lg-5,
@@ -9099,10 +9099,7 @@ a.bg-dark:hover {
 }
 
 .text-justify {
-    padding-right: 1px;
-    font-size: 17px;
-    margin-right: 0px;
-
+    text-align: justify !important
 }
 
 .text-nowrap {
