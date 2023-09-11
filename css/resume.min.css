@@ -249,8 +249,12 @@ a:hover {
     font-size: calc(14px + (21 - 14) * ((100vw - 360px) / (1716 - 360)));
 }
 
+.calc12 {
+    font-size: calc(12px + (19 - 12) * ((100vw - 360px) / (1716 - 360)));
+}
+
 .calc11 {
-    font-size: calc(10px + (18 - 11) * ((100vw - 360px) / (1716 - 360)));
+    font-size: calc(11px + (18 - 11) * ((100vw - 360px) / (1716 - 360)));
 }
 
 
@@ -274,7 +278,7 @@ a:hover {
 
 .tab {
     border: 1px solid #ccc;
-    font-size: calc(10px + (17 - 10) * ((100vw - 360px) / (1716 - 360)));
+    font-size: calc(11px + (18 - 11) * ((100vw - 360px) / (1716 - 360)));
     padding: 4px;
     text-align: left;
     vertical-align: center;
@@ -285,7 +289,7 @@ a:hover {
 }
 
 .tab a {
-    font-size: calc(10px + (16 - 10) * ((100vw - 360px) / (1716 - 360)));
+    font-size: calc(11px + (18 - 11) * ((100vw - 360px) / (1716 - 360)));
     text-decoration: underline;
     text-align: left;
     padding-left: 2px;
@@ -297,7 +301,7 @@ a:hover {
 }
 
 .tab strong {
-    font-size: calc(10px + (16 - 10) * ((100vw - 360px) / (1716 - 360)));
+    font-size: calc(11px + (18 - 11) * ((100vw - 360px) / (1716 - 360)));
     font-weight: 700;
     text-transform: uppercase;
     color: wheat
