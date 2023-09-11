@@ -292,7 +292,7 @@ address {
 
 ol,
 ul {
-    padding-left: 2rem
+    padding-right: 2rem
 }
 
 dl,
@@ -315,7 +315,7 @@ dt {
 
 dd {
     margin-bottom: .5rem;
-    margin-left: 0
+    margin-right: 0
 }
 
 blockquote {
@@ -430,7 +430,7 @@ caption {
     padding-top: .5rem;
     padding-bottom: .5rem;
     color: var(--bs-secondary-color);
-    text-align: left
+    text-align: right
 }
 
 th {
@@ -498,7 +498,7 @@ select:disabled {
 [type=submit],
 button {
     -webkit-appearance: button;
-    appearance: button
+    appearance: button;
 }
 
 [type=button]:not(:disabled),
@@ -525,7 +525,7 @@ fieldset {
 }
 
 legend {
-    float: left;
+    float: right;
     width: 100%;
     padding: 0;
     margin-bottom: .5rem;
@@ -540,7 +540,7 @@ legend {
 }
 
 legend+* {
-    clear: left
+    clear: right
 }
 
 ::-webkit-datetime-edit-day-field,
@@ -563,6 +563,13 @@ legend+* {
     outline-offset: -2px
 }
 
+[type=email],
+[type=number],
+[type=tel],
+[type=url] {
+    direction: ltr
+}
+
 ::-webkit-search-decoration {
     -webkit-appearance: none
 }
@@ -579,7 +586,7 @@ legend+* {
 ::file-selector-button {
     font: inherit;
     -webkit-appearance: button;
-    appearance: button
+    appearance: button;
 }
 
 output {
@@ -603,4 +610,4 @@ progress {
     display: none !important
 }
 
-/*# sourceMappingURL=bootstrap-reboot.min.css.map */
+/*# sourceMappingURL=bootstrap-reboot.rtl.min.css.map */
