@@ -249,6 +249,10 @@ a:hover {
     font-size: calc(14px + (21 - 14) * ((100vw - 360px) / (1716 - 360)));
 }
 
+.calc11 {
+    font-size: calc(10px + (18 - 11) * ((100vw - 360px) / (1716 - 360)));
+}
+
 
 .calc10 {
     font-size: calc(10px + (17 - 10) * ((100vw - 360px) / (1716 - 360)));
