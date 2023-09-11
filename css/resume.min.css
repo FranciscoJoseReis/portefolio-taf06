@@ -285,7 +285,7 @@ a:hover {
 }
 
 .tab a {
-    font-size: calc(8px + (14 - 8) * ((100vw - 360px) / (1716 - 360)));
+    font-size: calc(10px + (16 - 10) * ((100vw - 360px) / (1716 - 360)));
     text-decoration: underline;
     text-align: left;
     padding-left: 2px;
@@ -297,7 +297,7 @@ a:hover {
 }
 
 .tab strong {
-    font-size: calc(8px + (14 - 8) * ((100vw - 360px) / (1716 - 360)));
+    font-size: calc(10px + (16 - 10) * ((100vw - 360px) / (1716 - 360)));
     font-weight: 700;
     text-transform: uppercase;
     color: wheat
