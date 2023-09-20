@@ -33,7 +33,7 @@ a:link {
 
 /*google maps*/
 .google-map-container {
-    border-radius: 30px;
+    border-radius: 15px;
     filter: hue-rotate(45deg);
     position: relative;
     width: 100%;
