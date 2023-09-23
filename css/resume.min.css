@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
  .zoom {
-    transition: transform .2s; /* Animation */
+    transition: transform ease-in-out .2s; /* Animation */
     margin: 0 auto;
   }
   
@@ -13,7 +13,7 @@
   }
 
  img {
-    border-radius: 50%;
+    border-radius: 20%;
     max-width: 100%;
     height: auto;
   }
