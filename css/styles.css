@@ -11,6 +11,11 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
  
+.m-ab{
+  margin: 0 !important;
+  border: 1px solid #21c0ac;
+}
+
 .rad{
   border: 2px solid #21c0ac;
   border-radius: 25% 10%;
@@ -37,13 +42,13 @@
   /* 16:9 Aspect Ratio */
 }
 .tab {
-  border: 1px solid #ccc;
+  border: 1px solid #21c0ac;
   padding: 4px;
   text-align: left;
   vertical-align: center;}
 
   .tab tr {
-    border: 1px solid #ccc;
+    border: 1px solid #21c0ac;
 }
 .tab th:first-child,
 .tab td:first-child {
