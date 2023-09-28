@@ -11,6 +11,12 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
  
+.rad{
+  border: 2px solid #21c0ac;
+  border-radius: 25% 10%;
+  width: 30%;
+}
+
  .zoom {
   transition: transform ease-in-out .2s; /* Animation */
   margin: 0 auto;
@@ -47,10 +53,11 @@
 
 
 .button {
+  font-size: 0.870rem;
   background-color: black;
   border: none;
   color: white;
-  padding: 0.1px 12px;
+  padding: 0rem 0.5rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
