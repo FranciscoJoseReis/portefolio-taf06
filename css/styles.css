@@ -12805,6 +12805,7 @@ p.lead {
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
+  border: solid 1px black;
   background-color: transparent;
   color: #fff;
   border-radius: 100%;
@@ -12817,7 +12818,7 @@ p.lead {
 }
 
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #fff0f5;
 }
 
 .dev-icons {
