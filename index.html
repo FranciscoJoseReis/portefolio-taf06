@@ -1,21 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="PT">
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta name="description" content="Portfólio aprendizagem técnico auxiliar farmácia" />
+    <meta name="author" content="francisco Reis" />
+    <link rel="shortcut icon" href="portfolio.ico">
     <title>Meu Portfólio</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
-        type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@100;500;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Saira:wght@100;500;700;800&display=swap"
+        rel="stylesheet" />
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet" />
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet" />
     <!--Script-->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
@@ -28,6 +39,7 @@
                 hight: 600,
             });
         }
+
         function abrirPopup(url) {
             var largura = 900;
             var altura = 900;
@@ -36,27 +48,33 @@
 
             window.open(url, 'Popup de Imagem', 'width=' + largura + ', height=' + altura + ', left=' + left + ', top=' + top);
         }
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
 
+    </script>
 </head>
 
 <body id="page-top">
-    <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <span class="d-block d-lg-none" style="text-align: center;">Portfólio <br> Reflexivo de aprendizagem
+            <span class="d-block d-lg-none" style="font-size: 1rem;">
+                Portefólio<br>reflexivo de aprendizagem
             </span>
-            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
-                    src="assets/img/profile.png" alt="..." /> <br> Portfólio<br>Reflexivo de aprendizagem</span>
+            <span class="d-none d-lg-block" style="font-size: 1rem">
+                <img src="img/logo.png" />
+                <br />
+                Reflexivo de Aprendizagens
+                <br />
+                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.png" alt />
+            </span>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
-                class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
-                <li class="nav-item ">
-                    <div id="current_date" style="color: aliceblue; text-align: center;"></div>
+                <li class="nav-item">
+                    <div id="current_date" style="color: aliceblue; text-transform: uppercase"></div>
                     <script>
                         var data = moment()
                             .locale("pt-br")
@@ -64,7 +82,6 @@
                         document.getElementById("current_date").innerHTML = data;
                     </script>
                 </li>
-                <hr>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#about">Apresentação</a>
                 </li>
@@ -88,1009 +105,1138 @@
                     <a class="nav-link js-scroll-trigger" href="#final">Balanço
                         do curso</a>
                 </li>
-                <hr>
-                <li class="small copyright-text" style="color: black;">
+                <li class="small copyright-text">
                     Copyright&copy; 2023.Portfólio TAF06 Designed by
-                    <a href="https://franciscojosereis.github.io/portefolio/" target="_blank"
-                        style="color: aliceblue;">Francisco Reis</a>
+                    <a href="https://franciscojosereis.github.io/portefolio/" target="\"
+                        style="text-decoration: underline ;color: aliceblue;"">Francisco Reis</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <!-- Page Content-->
-    <div class="container-fluid p-0">
-        <!-- About-->
-        <section class="resume-section" id="about">
-            <div class="resume-section-content">
-                <h2 class="mb-0">
-                    Francisco
-                    <span class="text-primary">Reis</span>
-                </h2>
-                <div class="subheading mb-5">
-                    Escalos De Baixo, Castelo Branco.
-                    <a href="mailto:fjreisoutlook.com" style="text-transform: lowercase;">fjreis@outlook.com</a>
-                </div>
-                <p class="lead mb-5">
-                    Olá! <br>
-                    O meu nome é Francisco Reis e esse é o meu
-                    portfólio de aprendizagem.
-                    <br> Criei esse sítio ‘web’ para mostrar o
-                    meu
-                    progresso no curso de Técnico Auxiliar de
-                    Farmácia e as competências que adquiri.
-                    <br>
-                    Aqui, verá a minha trajetória, incluindo
-                    autobiografia, descrição do curso,
-                    referencial e estágio.
-                    <br>
-                    Começo mostrando a minha formação académica
-                    e certificações. Depois, detalho o curso,
-                    explicando o nível,
-                    a área de educação e os objetivos. No
-                    referencial do curso, apresento as minhas
-                    reflexões sobre os módulos e como eles se
-                    relacionam com a minha formação. Em seguida,
-                    falo sobre o meu local de
-                    estágio e a experiência que tive durante
-                    essa etapa. Descrevo as atividades que
-                    realizei e como
-                    elas contribuíram para meu desenvolvimento
-                    pessoal e profissional. Finalmente,
-                    apresento o balanço final do
-                    curso, onde compartilho os meus pensamentos
-                    finais sobre a minha jornada de aprendizado
-                    e os resultados que alcancei.
-                    <br>
-                    Espero que esse portfólio de aprendizagem
-                    possa fornecer uma visão geral do meu
-                    percurso de formação e demonstrar o meu
-                    compromisso em me tornar um profissional
-                    qualificado e experiente.
-                </p>
-                <div class="social-icons">
-                    <a class="social-icon" href="https://www.linkedin.com/in/francisco-reis-9541a9266/" target="_blank">
-                        <svg class="li" xmlns="http://www.w3.org/2000/svg" height="1em"
-                            viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                            <style>
-                                .li {
-                                    fill: #0f66be
-                                }
-                            </style>
-                            <path
-                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
-                        </svg>
-
-
-                    </a>
-                    <a class="social-icon" href="https://franciscojosereis.github.io/portefolio/" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="1em"
-                            viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                            <path
-                                d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64H348.7c2.2 20.4 3.3 41.8 3.3 64zm28.8-64H503.9c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0H18.6C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352H135.3zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6H493.4z" />
-                        </svg>
-                    </a>
-                    <a class="social-icon" href="https://www.facebook.com/franciscoramosreis" target="_blank">
-                        <svg class="um" xmlns="http://www.w3.org/2000/svg" height="1em"
-                            viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                            <style>
-                                .um {
-                                    fill: #1c77ed
-                                }
-                            </style>
-                            <path
-                                d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
-                        </svg>
-                    </a>
-                    <a class="social-icon" href="https://www.chess.com/member/netxadrezista" target="_blank">
-                        <svg class="che" xmlns="http://www.w3.org/2000/svg" height="1em"
-                            viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                            <style>
-                                .che {
-                                    fill: #82b656
-                                }
-                            </style>
-                            <path
-                                d="M215.5 224c29.2-18.4 48.5-50.9 48.5-88c0-57.4-46.6-104-104-104S56 78.6 56 136c0 37.1 19.4 69.6 48.5 88H96c-17.7 0-32 14.3-32 32c0 16.5 12.5 30 28.5 31.8L80 400H240L227.5 287.8c16-1.8 28.5-15.3 28.5-31.8c0-17.7-14.3-32-32-32h-8.5zM22.6 473.4c-4.2 4.2-6.6 10-6.6 16C16 501.9 26.1 512 38.6 512H281.4c12.5 0 22.6-10.1 22.6-22.6c0-6-2.4-11.8-6.6-16L256 432H64L22.6 473.4z" />
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </section>
-        <hr class="m-ab" />
-        <!--Autobiografia-->
-        <section class="resume-section" id="Autobiografia">
-            <div class="resume-section-content">
-                <h2 class="mb-0">
-                    Autobiografia
-                    <span class="text-primary"></span>
-                </h2>
-                <div class="subheading mb-5">
-                </div>
-                <p class="lead mb-5">
-                    Nasci no dia 12 de junho de 1968 na pequena aldeia de Escalos de
-                    Baixo, no concelho de Castelo Branco. Os meus pais eram emigrantes e, por isso, vivi com eles em
-                    França. Após os meus pais voltaram para Portugal, tinha eu 18 anos, comecei a trabalhar em vários
-                    empregos até me estabelecer como ladrilhador na construção civil. <br>
-                    Sempre gostei de conviver com os amigos e foi através desses convívios que descobri a minha paixão
-                    pelo xadrez, joguei numa equipa da 3.ª divisão, tendo sido, em 1997, vice-campeão distrital em
-                    Castelo Branco. A paixão pela informática também surgiu através desses convívios. Paixão que me
-                    levou a voltar aos estudos, onde através do programa das novas oportunidades fiz uma formação EFA
-                    para concluir o nível 3, na escola secundária de Santo André. Depois em 2011 iniciei um curso NS PRO
-                    - Técnico de Informática – Sistemas, nessa altura residia no Barreiro. Barreiro, onde vivi 14 anos,
-                    até a data do falecimento da minha esposa em 2019. Nessa altura precisei voltar para a casa dos meus
-                    pais em Castelo Branco. <br>
-                    Com a pandemia e a crise na construção civil, fiquei desempregado. Para encontrar alternativas,
-                    comecei a trabalhar num call center. Para melhorar as minhas perspetivas de carreira, decidi
-                    investir em formação profissional. Em novembro de 2020, iniciei um curso NS PRO - Técnico de Gestão
-                    do Ambiente. No entanto, a minha paixão pela informática continuava acesa, então voltei para o curso
-                    Técnico de Informática - Sistemas, que havia deixado pendente. Em maio de 2022, finalmente concluí
-                    esse curso com sucesso. <br>
-                    Embora não tenha conseguido uma vaga na empresa onde fiz estágio devido à pandemia, não desisti.
-                    Continuei a procurar oportunidades de formação e desenvolvimento profissional. Foi assim que
-                    encontrei o curso Técnico Auxiliar de Farmácia do IEFP. A área da saúde é promissora, então estou
-                    confiante de que esse curso será valioso tanto financeiramente quanto pessoalmente, permitindo-me
-                    relançar a minha carreira e a minha vida no mercado de trabalho. <br>
-                    Com a minha experiência de vida e a minha dedicação aos estudos, estou confiante de que encontrarei
-                    uma oportunidade de trabalho gratificante e contribuirei para a sociedade de maneira positiva.
-                    Apesar dos altos e baixos, estou feliz com a minha vida e grato pelas oportunidades que tenho tido.
-                    O futuro parece promissor, e mal posso esperar para ver o que o destino me reserva.
-                </p>
-            </div>
-        </section>
-        <hr class="m-ab" />
-        <!-- Estudos-->
-        <section class="resume-section" id="Estudos">
-            <div class="resume-section-content">
-                <h2 class="mb-0">Estudos <span class="text-primary">& Certificações</span></h2>
-                <div class="subheading mb-5"></div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Ensino secundário:</h3>
-                        <div class="subheading2">Modalidade:Curso EFA (EFA)</div>
-                        <div>12º ano</div>
-                        <div class="flex-shrink-0"><span class="text-primary">06/10/2010 - 19/12/2011</span></div>
-                    </div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Qualificação Profissional:</h3>
-                        <div class="subheading2">Técnico/a de Gestão do Ambiente (N4)</div>
-                        <div>Certificado Parcial</div>
-                        <div class="flex-shrink-0"><span class="text-primary">17/11/2020 - 18/06/2021</span></div>
-                        <div class="subheading2">Técnico/a de Informática - Sistemas (N4)</div>
-                        <div>Certificado</div>
-                        <div class="flex-shrink-0"><span class="text-primary">22/06/2021 - 12/05/2022</span></div>
-                        <div class="subheading2">Técnico/a Auxiliar de Farmácia (N4)</div>
-                        <div>Inscrito</div>
-                        <div class="flex-shrink-0"><span class="text-primary">24/10/2022 - </span></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <hr class="m-ab" />
-        <!--Cursos-->
-        <section class="resume-section" id="Cursos">
-            <div class="resume-section-content">
-                <h2 class="mb-0">
-                    Curso
-                    <span class="text-primary"></span>
-                </h2>
-                <div class="mb-5">
-                    <div class="subheading mb-5"></div>
-                    <table>
-                        <tr>
-                            <td>
-                                <b>Designação:</b>
-                                Técnico/a Auxiliar de Farmácia
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Nível QNQ/QEQ:</b>
-                                4
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Código:</b>
-                                727366
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Criado em:</b>
-                                2018-12-29
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Data da última alteração</b>
-                                2020-07-22
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Área de educação e formação:</b>
-                                727 - Ciências Farmacêuticas
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Pontos de crédito:</b>
-                                191,25
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Descrição da qualificação:</b>
-                                A execução de todos os atos inerentes ao
-                                exercício de
-                                funções de coadjuvação na área
-                                farmacêutica, sob o controlo
-                                e supervisão do diretor técnico da
-                                farmácia, em conformidade
-                                com a regulamentação aplicável e as
-                                normas de segurança e
-                                saúde no trabalho e de qualidade.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Observações:</b>
-                                Esta qualificação permite o acesso a uma
-                                profissão/atividade
-                                profissional regulamentada
-                                <button class="button" onmouseover="myFunction()" value="Observações!">
-                                    ?
-                                </button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Entidade:</b>
-                                Centro de Emprego e Formação
-                                Profissional da Amadora
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Modalidade:</b>
-                                Curso EFA (EFA)
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Estado Profissional:</b>
-                                Inscrito
-                                <b>Data:</b>
-                                24/10/2022
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Coordenadora:</b>
-                                Mariana Fernandes Rodrigues
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <b>Mediadora:</b>
-                                Ana Paula Sarandeses
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-        </section>
-        <hr class="m-ab" />
-        <!--Referencial-->
-        <section class="resume-section" id="Referencial">
-            <div class="resume-section-content">
-                <h2 class="mb-0">
-                    Referencial
-                    <span class="text-primary">formação tecnológica</span>
-                </h2>
-                <div class="mb-5">
-                    <div class="subheading mb-5"></div>
-                    <div class="subheading mb-5"></div>
-                    <!--tabela-->
-                    <table class="tab">
-                        <!--cabeçalho-->
-                        <tr class="subheading">
-                            <td colspan="3" style="text-align: center">
-                                <strong>Lista dos módulos</strong>
-                            </td>
-                        </tr>
-                        <!---->
-                        <tr>
-                            <td>
-                                <strong>
-                                    código (nº)
-                                    <br />
-                                    designação da ufcd
-                                </strong>
-                            </td>
-                            <td style="text-align: center">
-                                <strong>horas</strong>
-                            </td>
-                            <td style="text-align: center">
-                                <strong>pontos</strong>
-                            </td>
-                        </tr>
-                        <!--1-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(1)_UFCD 10145.pdf" target="_blank">
-                                    10145 (1)
-                                    <br />
-                                    Enquadramento do sector farmacêutico
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--2-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(2)_UFCD 10146.pdf" target="_blank">
-                                    10146 (2)
-                                    <br />
-                                    O medicamento – formas
-                                    farmacêuticas, vias de
-                                    administração e o seu percurso no
-                                    organismo
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--3-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(3)_UFCD 10147.pdf" target="_blank">
-                                    10147 (3)
-                                    <br />
-                                    Reações adversas a medicamentos –
-                                    farmacovigilância
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--4-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(4)_UFCD 10148.pdf" target="_blank">
-                                    10148 (4)
-                                    <br />
-                                    Sistema imunitário – imunidade e
-                                    defesas do organismo
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--5-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(5)_UFCD 10149.pdf" target="_blank">
-                                    10149 (5)
-                                    <br />
-                                    Noções básicas do sistema nervoso e
-                                    o aconselhamento na
-                                    farmácia
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--6-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(6)_UFCD 10150.pdf" target="_blank">10150 (6)
-                                    <br />
-                                    Noções básicas do sistema
-                                    respiratório e
-                                    o aconselhamento na
-                                    farmácia</a>
-                            </td>
-                            <td style="text-align: center">50</td>
-                            <td style="text-align: center">4.50</td>
-                        </tr>
-                        <!--7-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(7)_UFCD 10151.pdf" target="_blank">
-                                    10151 (7)
-                                    <br />
-                                    Noções básicas do sistema
-                                    gastrointestinal e o
-                                    aconselhamento na farmácia
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--8-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(8)_UFCD 10152.pdf" target="_blank">
-                                    10152 (8)
-                                    <br />
-                                    Noções básicas do sistema
-                                    cardiovascular e o
-                                    aconselhamento na farmácia
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--9-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(9)_UFCD 10153.pdf" target="_blank">
-                                    10153 (9)
-                                    <br />
-                                    Noções básicas do sistema reprodutor
-                                    e o aconselhamento na
-                                    farmácia
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--10-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(10)_UFCD 10154.pdf" target="_blank">
-                                    10154 (10)
-                                    <br />
-                                    Noções básicas da pele e o
-                                    aconselhamento na farmácia
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--11-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(11)_UFCD 10155.pdf" target="_blank">
-                                    10155 (11)
-                                    <br />
-                                    Noções básicas sobre as principais
-                                    alterações metabólicas e
-                                    o aconselhamento na farmácia
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--12-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(12)_UFCD 10156.pdf" target="_blank">
-                                    10156 (12)
-                                    <br />
-                                    Noções básicas sobre antibioterapia
-                                    e o aconselhamento na
-                                    farmácia
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--13-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(13)_UFCD 10157.pdf" target="_blank"> 10157 (13)
-                                    <br />
-                                    Procedimentos de receção, conferência e
-                                    armazenamento de
-                                    medicamentos e produtos de saúde</a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--14-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(14)_UFCD 10158.pdf" target="_blank">
-                                    10158 (14)
-                                    <br />
-                                    Procedimentos de controlo de
-                                    existências e prazos de
-                                    validade de medicamentos e produtos
-                                    de saúde
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--15-->
-                        <tr>
-                            <td>
-                                <a href="reflexões//(15)_UFCD 10159.pdf" target="_blank">
-                                    10159 (15)
-                                    <br />
-                                    Gestão do processo de encomendas de
-                                    medicamentos e produtos
-                                    de saúde
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--16-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(16)_UFCD 10160.pdf" target="_blank"> 10160 (16)
-                                    <br />
-                                    Gestão do processo de devoluções de
-                                    medicamentos e produtos
-                                    de saúde</a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--17-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(17)_UFCD 10161.pdf" target="_blank"> 10161 (17)
-                                    <br />
-                                    Gestão de stocks da farmácia</a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--18-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(18)_UFCD 10162.pdf" target="_blank">10162 (18)
-                                    <br />
-                                    Procedimentos de conferência de
-                                    receituário</a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--19-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(19)_UFCD 0349.pdf" target="_blank">
-                                    0349 (19)
-                                    <br />
-                                    Ambiente, Segurança, Higiene e Saúde
-                                    no Trabalho -
-                                    conceitos básicos
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--20-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(20)_UFCD 10163.pdf" target="_blank">
-                                    10163 (20)
-                                    <br />
-                                    Boas práticas de segurança e saúde
-                                    na farmácia
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--21-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(21)_UFCD 6570.pdf" target="_blank">
-                                    6570 (21)
-                                    <br />
-                                    Abordagem geral de noções básicas de
-                                    primeiros socorros
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--22-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(22)_UFCD 9832.pdf" target="_blank">
-                                    9832 (22)
-                                    <br />
-                                    Fundamentos do marketing
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--23-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(23)_UFCD 2677.pdf" target="_blank">
-                                    2677 (23)
-                                    <br />
-                                    Estratégias de marketing
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--24-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(24)_UFCD 0403.pdf" target="_blank">
-                                    0403 (24)
-                                    <br />
-                                    Relacionamento interpessoal
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--25-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(25)_UFCD 5440.pdf" target="_blank">
-                                    5440 (25)
-                                    <br />
-                                    Comunicação interpessoal e
-                                    assertividade
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--26-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(26)_UFCD 4365.pdf" target="_blank">
-                                    4365 (26)
-                                    <br />
-                                    Técnicas de venda
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--27-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(27)_UFCD 0704.pdf" target="_blank"> 0704 (27)
-                                    <br />
-                                    Atendimento - técnicas de comunicação</a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--28-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(28)_UFCD 5897.pdf" target="_blank">
-                                    5897 (28)
-                                    <br />
-                                    Atendimento e venda presencial
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--29-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(29)_UFCD 3492.pdf" target="_blank">
-                                    3492 (29)
-                                    <br />
-                                    Atendimento - inglês técnico</a>
-                            </td>
-                            <td style="text-align: center">50</td>
-                            <td style="text-align: center">4.50</td>
-                        </tr>
-                        <!--30-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(30)_UFCD 7266.pdf" target="_blank"> 7266 (30)
-                                    <br />
-                                    Gestão e tratamento de reclamações</a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--31-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(31)_UFCD 10164.pdf" target="_blank">
-                                    10164 (31)
-                                    <br />
-                                    Protocolos de dispensa de
-                                    medicamentos não sujeitos a
-                                    receita médica
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--32-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(32)_UFCD 10165.pdf" target="_blank"> 10165 (32)
-                                    <br />
-                                    Técnicas de execução de
-                                    determinações de
-                                    parâmetros na
-                                    farmácia</a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--33-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(33)_UFCD 10166.pdf" target="_blank">
-                                    10166 (33)
-                                    <br />
-                                    Sistemas Informáticos aplicados à
-                                    atividade comercial na
-                                    farmácia
-                                </a>
-                            </td>
-                            <td style="text-align: center">50</td>
-                            <td style="text-align: center">4.50</td>
-                        </tr>
-                        <!--34-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(34)_UFCD 4651.pdf" target="_blank">
-                                    4651 (34)
-                                    <br />
-                                    Gestão de stress e gestão de
-                                    conflitos
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--35-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(35)_UFCD 6538.pdf" target="_blank">
-                                    6538 (35)
-                                    <br />
-                                    Trabalho em equipa
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--36-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(36)_UFCD 4793.pdf" target="_blank">
-                                    4793 (36)
-                                    <br />
-                                    Introdução à gestão da qualidade
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--37-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(37)_UFCD 10167.pdf" target="_blank"> 10167 (37)
-                                    <br />
-                                    Boas práticas em farmácia</a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--38-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(38)_UFCD 10168.pdf" target="_blank">
-                                    10168 (38)
-                                    <br />
-                                    Noções gerais de veterinária e o
-                                    aconselhamento na
-                                    farmácia
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--39-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(39)_UFCD 10171.pdf" target="_blank"> 10171 (39)
-                                    <br />
-                                    Dermofarmácia e cosmética e o
-                                    aconselhamento na farmácia</a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--40-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(40)_UFCD 10172.pdf" target="_blank"> 10172 (40)
-                                    <br />
-                                    Higiene oral e o aconselhamento na
-                                    farmácia</a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--41-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(41)_UFCD 10175.pdf" target="_blank">
-                                    10175 (41)
-                                    <br />
-                                    Puericultura e o aconselhamento na
-                                    farmácia
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--42-->
-                        <tr>
-                            <td>
-                                <a href="reflexões/(42)_UFCD 9822.pdf" target="_blank">
-                                    9822 (42)
-                                    <br />
-                                    Poupança – conceitos básicos
-                                </a>
-                            </td>
-                            <td style="text-align: center">25</td>
-                            <td style="text-align: center">2.25</td>
-                        </tr>
-                        <!--FCT-->
-                        <tr>
-                            <td>
-                                FCT
-                                <br />
-                                Formação em contexto de trabalho
-                            </td>
-                            <td style="text-align: center">210</td>
-                            <td style="text-align: center">20</td>
-                        </tr>
-                    </table>
-                    <!--fim tabela-->
-                </div>
-            </div>
-        </section>
-        <hr class="m-ab" />
-        <!--estagio-->
-        <section class="resume-section" id="estagio">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Local <span class="text-primary">de estagio</span></h2>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="">
-                        <div class="subheading2">Farmácia Tanara <span class="text-primary">Forum Castelo Branco</span>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="">
-                                <a href="https://www.google.com/maps/dir//Forum+Castelo+Branco,+Av.+Prof.+Dr.+Egas+Moniz,+6000-459+Castelo+Branco/@39.807858,-7.51699,16z/data=!4m9!4m8!1m0!1m5!1m1!1s0xd3d5eb071cd02c9:0xfa13d367d0b082d!2m2!1d-7.5148196!2d39.8080899!3e0?hl=pt-PT&entry=ttu"
-                                    style="text-decoration: underline" target="_blank">
-                                    Av. Prof. Dr. Egas Moniz 901,
-                                    6000-901 Castelo Branco
-                                </a>
-                                <br>
-                                <a href="tel:272346357" style="text-decoration: underline">272346357</a>
-                                <div class="social-icons">
-                                    <a class="social-icon" href="mailto:tanaraexpressocbranco@farmaciastanara.pt"
-                                        target="_blank">
-                                        <svg class="env" xmlns="http://www.w3.org/2000/svg" height="1em"
-                                            viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                                            <style>
-                                                .env {
-                                                    fill: black
-                                                }
-                                            </style>
-                                            <path
-                                                d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
-                                        </svg>
-                                    </a>
-                                    <a class="social-icon"
-                                        href="https://forumcastelobranco.com.pt/lojasdetalhes.aspx?id=238"
-                                        target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="1em"
-                                            viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                                            <path
-                                                d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64H348.7c2.2 20.4 3.3 41.8 3.3 64zm28.8-64H503.9c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0H18.6C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352H135.3zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6H493.4z" />
-                                        </svg>
-                                    </a>
-                                    <a class="social-icon"
-                                        href="https://www.facebook.com/profile.php?id=100063282185782" target="_blank">
-                                        <svg class="um" xmlns="http://www.w3.org/2000/svg" height="1em"
-                                            viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                                            <style>
-                                                .um {
-                                                    fill: #1c77ed
-                                                }
-                                            </style>
-                                            <path
-                                                d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
-                                        </svg>
-                                    </a>
+    <div class=" container-fluid p-0">
+                        <!--about-->
+                        <section class="resume-section p-3 p-lg-5 flex-nowrap" id="about">
+                            <div class="my-auto">
+                                <h2 class="mb-0">
+                                    Francisco
+                                    <span class="text-primary">Reis</span>
+                                </h2>
+                                <div class="subheading">
+                                    Escalos De Baixo, Castelo Branco ·
+                                    <a href="mailto:fjreis@outlook.com"
+                                        style="text-decoration: underline; text-transform: lowercase">fjreis@outlook.com</a>
                                 </div>
+                                <div class="resume-item d-flex flex-nowrap flex-md-row mb-5">
+                                    <div class="resume-content mr-auto">
+                                        <div class="">
+                                            <p>
+                                                <br>
+                                                Olá! <br>
+                                                O meu nome é Francisco Reis e esse é o meu
+                                                portfólio de aprendizagem.
+                                                <br> Criei esse sítio ‘web’ para mostrar o
+                                                meu
+                                                progresso no curso de Técnico Auxiliar de
+                                                Farmácia e as competências que adquiri.
+                                                <br>
+                                                Aqui, verá a minha trajetória, incluindo
+                                                autobiografia, descrição do curso,
+                                                referencial e estágio.
+                                                <br>
+                                                Começo mostrando a minha formação académica
+                                                e certificações. Depois, detalho o curso,
+                                                explicando o nível,
+                                                a área de educação e os objetivos. No
+                                                referencial do curso, apresento as minhas
+                                                reflexões sobre os módulos e como eles se
+                                                relacionam com a minha formação. Em seguida,
+                                                falo sobre o meu local de
+                                                estágio e a experiência que tive durante
+                                                essa etapa. Descrevo as atividades que
+                                                realizei e como
+                                                elas contribuíram para meu desenvolvimento
+                                                pessoal e profissional. Finalmente,
+                                                apresento o balanço final do
+                                                curso, onde compartilho os meus pensamentos
+                                                finais sobre a minha jornada de aprendizado
+                                                e os resultados que alcancei.
+                                                <br>
+                                                Espero que esse portfólio de aprendizagem
+                                                possa fornecer uma visão geral do meu
+                                                percurso de formação e demonstrar o meu
+                                                compromisso em me tornar um profissional
+                                                qualificado e experiente.
 
-                            </div>
+                                            </p>
+                                        </div>
+                                        <div class="social-icons">
+                                            <a class="social-icon"
+                                                href="https://www.linkedin.com/in/francisco-reis-9541a9266/"
+                                                target="_blank">
+                                                <svg class="li" xmlns="http://www.w3.org/2000/svg" height="1em"
+                                                    viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                                    <style>
+                                                        .li {
+                                                            fill: #0f66be
+                                                        }
+                                                    </style>
+                                                    <path
+                                                        d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                                                </svg>
 
-                        </div>
-                        <table>
-                            <tr>
-                                <td style="padding-top: 13px;">
-                                    <a href="#" onclick="abrirPopup('assets/img/Fots/Im1.jpg'); return false;"> <img
-                                            class="zoom rad" src="assets/img/Fots/Im1.jpg" alt=""></a>
-                                    <a href="#" onclick="abrirPopup('assets/img/Fots/Im2.jpg'); return false;"> <img
-                                            class="zoom rad" src="assets/img/Fots/Im2.jpg" alt=""></a>
-                                    <a href="#" onclick="abrirPopup('assets/img/Fots/Im3.jpg'); return false;"> <img
-                                            class="zoom rad" src="assets/img/Fots/Im3.jpg" alt=""></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="padding-bottom: 20px;"></td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="text-right">
-                            <div class="google-map-container">
-                                <div>
-                                    <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6129.902081414176!2d-7.514820000000001!3d39.80809!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd3d5eb071cd02c9%3A0xfa13d367d0b082d!2sForum%20Castelo%20Branco!5e0!3m2!1spt-PT!2spt!4v1696718241286!5m2!1spt-PT!2spt"
-                                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                                            </a>
+                                            <a class="social-icon"
+                                                href="https://franciscojosereis.github.io/portefolio/" target="_blank">
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                                                    viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                                    <path
+                                                        d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64H348.7c2.2 20.4 3.3 41.8 3.3 64zm28.8-64H503.9c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0H18.6C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352H135.3zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6H493.4z" />
+                                                </svg>
+                                            </a>
+                                            <a class="social-icon" href="https://www.facebook.com/franciscoramosreis"
+                                                target="_blank">
+                                                <svg class="um" xmlns="http://www.w3.org/2000/svg" height="1em"
+                                                    viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                                    <style>
+                                                        .um {
+                                                            fill: #1c77ed
+                                                        }
+                                                    </style>
+                                                    <path
+                                                        d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                                                </svg>
+                                            </a>
+                                            <a class="social-icon" href="https://www.chess.com/member/netxadrezista"
+                                                target="_blank">
+                                                <svg class="che" xmlns="http://www.w3.org/2000/svg" height="1em"
+                                                    viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                                    <style>
+                                                        .che {
+                                                            fill: #82b656
+                                                        }
+                                                    </style>
+                                                    <path
+                                                        d="M215.5 224c29.2-18.4 48.5-50.9 48.5-88c0-57.4-46.6-104-104-104S56 78.6 56 136c0 37.1 19.4 69.6 48.5 88H96c-17.7 0-32 14.3-32 32c0 16.5 12.5 30 28.5 31.8L80 400H240L227.5 287.8c16-1.8 28.5-15.3 28.5-31.8c0-17.7-14.3-32-32-32h-8.5zM22.6 473.4c-4.2 4.2-6.6 10-6.6 16C16 501.9 26.1 512 38.6 512H281.4c12.5 0 22.6-10.1 22.6-22.6c0-6-2.4-11.8-6.6-16L256 432H64L22.6 473.4z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <hr class="m-ab" />
-        <!--final-->
-        <section class="resume-section" id="final">
-            <div class="resume-section-content">
-                <h2 class="mb-0">
-                    Balanço
-                    <span class="text-primary">do curso</span>
-                </h2>
-                <div class="subheading mb-5">
-                </div>
-                <div class="subheading mb-5"></div>
-                <p class="lead mb-5">
-                    Antes de mais, quero expressar o meu cordial reconhecimento à coordenadora Mariana Fernandes
-                    Rodrigues e à mediadora Paula Sarandeses pelo seus empenho e dedicação em orientar o curso.
-                    Pretendo, também, expressar a minha gratidão a todos as formadoras e formadores competentes que
-                    partilharam, valiosos conhecimentos, com paixão e métodos educativos eficazes. As sessões foram
-                    extremamente enriquecedoras e contribuíram significativamente para o meu desenvolvimento como
-                    Técnico Auxiliar de Farmácia. <br>
-                    Graças a equipa formativa, adquiri saberes essenciais para uma melhor compreensão de todos os
-                    conceitos fundamentais, preparando-me para exercer as minhas funções com mais segurança e eficácia.
-                    Sou sinceramente grato pela excelente formação que recebi. Durante a minha preparação na área da
-                    saúde, aprendi uma ampla gama de conceitos, sendo que os mais importantes incluem prescrição,
-                    dispensa e conferência de receitas, direitos e deveres dos clientes e ética em saúde. Além disso,
-                    também aprendi sobre técnicas de marketing e promoção utilizadas no setor, ciclo de vida de
-                    medicamentos e produtos de saúde, aplicação da língua inglesa no atendimento ao público e muito
-                    mais. <br>
-                    Como nunca tive experiência prévia em lidar com o público, os módulos mais relevantes para poder
-                    estar mais a vontade no atendimento. Foram, entre outras, as UFCDS "Atendimento - Técnicas de
-                    Comunicação" (0704) e "Atendimento e Venda Presencial" (5897). Estas formações representam um
-                    recurso valioso para meu futuro como técnico auxiliar de farmácia e além. Elas me habilitam a
-                    assumir responsabilidades relacionadas ao atendimento numa variedade de contextos profissionais.
-                </p>
-            </div>
-        </section>
-    </div>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+                        </section>
+                        <!--Autobiografia-->
+                        <section class="resume-section p-3 p-lg-5 flex-nowrap" id="Autobiografia">
+                            <div class="my-auto">
+                                <h2 class="mb-0">Autobiografia</h2>
+                                <div class="resume-item d-flex flex-nowrap flex-md-row mb-5">
+                                    <div class="resume-content mr-auto">
+                                        <div class="">
+                                            <p>
+                                                Nasci em 12 de junho de 1968 na pequena
+                                                aldeia de Escalos de Baixo, no concelho de
+                                                Castelo Branco.
+                                                Os meus pais eram emigrantes e, por isso,
+                                                vivi com eles em França. Após os meus pais
+                                                voltaram para Portugal, tinha eu 18 anos,
+                                                comecei a trabalhar em vários empregos até
+                                                me estabelecer como ladrilhador na
+                                                construção civil.
+                                                <br>
+                                                Sempre gostei de conviver com os amigos e
+                                                foi
+                                                através desses
+                                                convívios que descobri a minha paixão pelo
+                                                xadrez, joguei numa
+                                                equipa da 3.ª divisão, tendo sido, em 1997,
+                                                vice-campeão
+                                                distrital em Castelo Branco. A paixão pela
+                                                informática também
+                                                surgiu através desses convívios. Paixão que
+                                                me
+                                                levou a voltar
+                                                aos estudos, onde através do programa das
+                                                novas
+                                                oportunidades
+                                                fiz uma formação EFA para concluir o nível 3
+                                                ,
+                                                na escola
+                                                secundária de Santo André. Depois em 2011
+                                                iniciei um curso NS
+                                                PRO - Técnico de Informática – Sistemas,
+                                                nessa
+                                                altura residia no
+                                                Barreiro. Barreiro onde vivi 14 anos, até a
+                                                data
+                                                do falecimento
+                                                da minha esposa em 2019.
+                                                <br>
+                                                Em 2019, minha esposa faleceu e precisei
+                                                voltar para a casa dos meus pais em Castelo
+                                                Branco. Com a pandemia e a crise na
+                                                construção civil, fiquei desempregado. Para
+                                                encontrar alternativas, comecei a trabalhar
+                                                em um call center.
+                                                Para melhorar minhas perspectivas de
+                                                carreira, decidi investir em formação
+                                                profissional. Em novembro de 2020, iniciei
+                                                um curso NS PRO - Técnico de Gestão do
+                                                Ambiente.
+                                                No entanto, minha paixão pela
+                                                informática continuava acesa, então voltei
+                                                para o curso Técnico de Informática -
+                                                Sistemas, que havia deixado pendente. Em
+                                                maio de 2022, finalmente concluí esse curso
+                                                com sucesso.
+                                                <br>
+                                                Embora não tenha conseguido uma vaga na
+                                                empresa onde fiz estágio devido à pandemia,
+                                                não desisti. Continuei procurando
+                                                oportunidades de formação e desenvolvimento
+                                                profissional. Foi assim que encontrei o
+                                                curso Técnico Auxiliar de Farmácia do IEFP.
+                                                A área da saúde é promissora, então estou
+                                                confiante de que esse curso será valioso
+                                                tanto financeiramente quanto pessoalmente,
+                                                permitindo-me relançar minha carreira e
+                                                minha vida no mercado de trabalho.
+                                                <br>
+                                                Com minha experiência de vida e minha
+                                                dedicação aos estudos, estou confiante de
+                                                que encontrarei uma oportunidade de trabalho
+                                                gratificante e contribuirei para a sociedade
+                                                de maneira positiva. Apesar dos altos e
+                                                baixos, estou feliz com minha vida e grato
+                                                pelas oportunidades que tenho tido. O futuro
+                                                parece promissor, e mal posso esperar para
+                                                ver o que o destino me reserva.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!--Estudos-->
+                        <section class="resume-section p-3 p-lg-5 flex-nowrap" id="Estudos">
+                            <div class="my-auto">
+                                <h2 class="mb-0">Estudos & <span class="text-primary">Certificações</span></h2>
+                                <h3 class="mb-0">Ensino secundário:</h3>
+                                <div class="subheading">Modalidade:Curso EFA (EFA)</div>
+                                <div>12º ano</div>
+                                <div class="flex-shrink-0"><span class="text-primary">06/10/2010 - 19/12/2011</span>
+                                </div>
+                                <h3 class="mb-0">Qualificação Profissional:</h3>
+                                <div class="subheading">Técnico/a de Gestão do Ambiente (N4)</div>
+                                <div>Certificado Parcial</div>
+                                <div class="flex-shrink-0"><span class="text-primary">17/11/2020 - 18/06/2021</span>
+                                </div>
+                                <div class="subheading">Técnico/a de Informática - Sistemas (N4)</div>
+                                <div>Certificado</div>
+                                <div class="flex-shrink-0"><span class="text-primary">22/06/2021 - 12/05/2022</span>
+                                </div>
+                                <div class="subheading">Técnico/a Auxiliar de Farmácia (N4)</div>
+                                <div>Inscrito</div>
+                                <div class="flex-shrink-0"><span class="text-primary">24/10/2022 - </span></div>
+                            </div>
+                        </section>
+                        <!--Cursos-->
+                        <section class="resume-section p-3 p-lg-5 flex-nowrap" id="Cursos">
+                            <div class="my-auto">
+                                <h2 class="mb-0">Curso</h2>
+                                <div class="resume-item d-flex flex-nowrap flex-md-row mb-5">
+                                    <div class="resume-content mr-auto">
+                                        <table class="">
+                                            <tr>
+                                                <td>
+                                                    <b>Designação:</b>
+                                                    Técnico/a Auxiliar de Farmácia
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <b>Nível QNQ/QEQ:</b>
+                                                    4
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <b>Código:</b>
+                                                    727366
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <b>Criado em:</b>
+                                                    2018-12-29
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <b>Data da última alteração</b>
+                                                    2020-07-22
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <b>Área de educação e formação:</b>
+                                                    727 - Ciências Farmacêuticas
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <b>Pontos de crédito:</b>
+                                                    191,25
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <b>Descrição da qualificação:</b>
+                                                    A execução de todos os atos inerentes ao
+                                                    exercício de
+                                                    funções de coadjuvação na área
+                                                    farmacêutica, sob o controlo
+                                                    e supervisão do diretor técnico da
+                                                    farmácia, em conformidade
+                                                    com a regulamentação aplicável e as
+                                                    normas de segurança e
+                                                    saúde no trabalho e de qualidade.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <b>Observações:</b>
+                                                    Esta qualificação permite o acesso a uma
+                                                    profissão/atividade
+                                                    profissional regulamentada
+                                                    <button class="button" onmouseover="myFunction()"
+                                                        value="Observações!">
+                                                        ?
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <b>Entidade:</b>
+                                                    Centro de Emprego e Formação
+                                                    Profissional da Amadora
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <b>Modalidade:</b>
+                                                    Curso EFA (EFA)
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <b>Estado Profissional:</b>
+                                                    Inscrito
+                                                    <b>Data:</b>
+                                                    24/10/2022
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <b>Coordenadora:</b>
+                                                    Mariana Fernandes Rodrigues
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <b>Mediadora:</b>
+                                                    Ana Paula Sarandeses
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!--Referencial-->
+                        <section class="resume-section p-3 p-lg-5 flex-nowrap" id="Referencial">
+                            <div class="my-auto">
+                                <h2 class="mb-0">Referencial de <span class="text-primary"> formação tecnológica</span>
+                                </h2>
+                                <div class="resume-item d-flex flex-nowrap flex-md-row mb-5">
+                                    <div class="resume-content mr-auto">
+                                        <!--tabela-->
+                                        <table class="tab">
+                                            <!--cabeçalho-->
+                                            <tr>
+                                                <td colspan="3" style="text-align: center">
+                                                    <strong>Lista dos módulos</strong>
+                                                </td>
+                                            </tr>
+
+                                            <!---->
+                                            <tr>
+                                                <td>
+                                                    <strong>
+                                                        código (nº)
+                                                        <br />
+                                                        designação da ufcd
+                                                    </strong>
+                                                </td>
+                                                <td style="text-align: center">
+                                                    <strong>horas</strong>
+                                                </td>
+                                                <td style="text-align: center">
+                                                    <strong>pontos</strong>
+                                                </td>
+                                            </tr>
+
+                                            <!--1-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(1)_UFCD 10145.pdf" target="_blank">
+                                                        10145 (1)
+                                                        <br />
+                                                        Enquadramento do sector farmacêutico
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--2-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(2)_UFCD 10146.pdf" target="_blank">
+                                                        10146 (2)
+                                                        <br />
+                                                        O medicamento – formas
+                                                        farmacêuticas, vias de
+                                                        administração e o seu percurso no
+                                                        organismo
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--3-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(3)_UFCD 10147.pdf" target="_blank">
+                                                        10147 (3)
+                                                        <br />
+                                                        Reações adversas a medicamentos –
+                                                        farmacovigilância
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--4-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(4)_UFCD 10148.pdf" target="_blank">
+                                                        10148 (4)
+                                                        <br />
+                                                        Sistema imunitário – imunidade e
+                                                        defesas do organismo
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--5-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(5)_UFCD 10149.pdf" target="_blank">
+                                                        10149 (5)
+                                                        <br />
+                                                        Noções básicas do sistema nervoso e
+                                                        o aconselhamento na
+                                                        farmácia
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--6-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(6)_UFCD 10150.pdf" target="_blank">10150 (6)
+                                                        <br />
+                                                        Noções básicas do sistema
+                                                        respiratório e
+                                                        o aconselhamento na
+                                                        farmácia</a>
+                                                </td>
+                                                <td style="text-align: center">50</td>
+                                                <td style="text-align: center">4.50</td>
+                                            </tr>
+
+                                            <!--7-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(7)_UFCD 10151.pdf" target="_blank">
+                                                        10151 (7)
+                                                        <br />
+                                                        Noções básicas do sistema
+                                                        gastrointestinal e o
+                                                        aconselhamento na farmácia
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--8-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(8)_UFCD 10152.pdf" target="_blank">
+                                                        10152 (8)
+                                                        <br />
+                                                        Noções básicas do sistema
+                                                        cardiovascular e o
+                                                        aconselhamento na farmácia
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--9-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(9)_UFCD 10153.pdf" target="_blank">
+                                                        10153 (9)
+                                                        <br />
+                                                        Noções básicas do sistema reprodutor
+                                                        e o aconselhamento na
+                                                        farmácia
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--10-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(10)_UFCD 10154.pdf" target="_blank">
+                                                        10154 (10)
+                                                        <br />
+                                                        Noções básicas da pele e o
+                                                        aconselhamento na farmácia
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--11-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(11)_UFCD 10155.pdf" target="_blank">
+                                                        10155 (11)
+                                                        <br />
+                                                        Noções básicas sobre as principais
+                                                        alterações metabólicas e
+                                                        o aconselhamento na farmácia
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--12-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(12)_UFCD 10156.pdf" target="_blank">
+                                                        10156 (12)
+                                                        <br />
+                                                        Noções básicas sobre antibioterapia
+                                                        e o aconselhamento na
+                                                        farmácia
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--13-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(13)_UFCD 10157.pdf" target="_blank">10157 (13)
+                                                        <br />
+                                                        Procedimentos de receção, conferência e
+                                                        armazenamento de
+                                                        medicamentos e produtos de saúde</a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--14-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(14)_UFCD 10158.pdf" target="_blank">
+                                                        10158 (14)
+                                                        <br />
+                                                        Procedimentos de controlo de
+                                                        existências e prazos de
+                                                        validade de medicamentos e produtos
+                                                        de saúde
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--15-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões//(15)_UFCD 10159.pdf" target="_blank">
+                                                        10159 (15)
+                                                        <br />
+                                                        Gestão do processo de encomendas de
+                                                        medicamentos e produtos
+                                                        de saúde
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--16-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(16)_UFCD 10160.pdf" target="_blank"> 10160 (16)
+                                                        <br />
+                                                        Gestão do processo de devoluções de
+                                                        medicamentos e produtos
+                                                        de saúde</a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--17-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(17)_UFCD 10161.pdf" target="_blank"> 10161 (17)
+                                                        <br />
+                                                        Gestão de stocks da farmácia</a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--18-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(18)_UFCD 10162.pdf" target="_blank">10162 (18)
+                                                        <br />
+                                                        Procedimentos de conferência de
+                                                        receituário</a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--19-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(19)_UFCD 0349.pdf" target="_blank">
+                                                        0349 (19)
+                                                        <br />
+                                                        Ambiente, Segurança, Higiene e Saúde
+                                                        no Trabalho -
+                                                        conceitos básicos
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--20-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(20)_UFCD 10163.pdf" target="_blank">
+                                                        10163 (20)
+                                                        <br />
+                                                        Boas práticas de segurança e saúde
+                                                        na farmácia
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--21-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(21)_UFCD 6570.pdf" target="_blank">
+                                                        6570 (21)
+                                                        <br />
+                                                        Abordagem geral de noções básicas de
+                                                        primeiros socorros
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--22-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(22)_UFCD 9832.pdf" target="_blank">
+                                                        9832 (22)
+                                                        <br />
+                                                        Fundamentos do marketing
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--23-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(23)_UFCD 2677.pdf" target="_blank">
+                                                        2677 (23)
+                                                        <br />
+                                                        Estratégias de marketing
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--24-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(24)_UFCD 0403.pdf" target="_blank">
+                                                        0403 (24)
+                                                        <br />
+                                                        Relacionamento interpessoal
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--25-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(25)_UFCD 5440.pdf" target="_blank">
+                                                        5440 (25)
+                                                        <br />
+                                                        Comunicação interpessoal e
+                                                        assertividade
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--26-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(26)_UFCD 4365.pdf" target="_blank">
+                                                        4365 (26)
+                                                        <br />
+                                                        Técnicas de venda
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--27-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(27)_UFCD 0704.pdf" target="_blank">0704 (27)
+                                                        <br />
+                                                        Atendimento - técnicas de comunicação</a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--28-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(28)_UFCD 5897.pdf" target="_blank">
+                                                        5897 (28)
+                                                        <br />
+                                                        Atendimento e venda presencial
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--29-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(29)_UFCD 3492.pdf" target="_blank">
+                                                        3492 (29)
+                                                        <br />
+                                                        Atendimento - inglês técnico</a>
+                                                </td>
+                                                <td style="text-align: center">50</td>
+                                                <td style="text-align: center">4.50</td>
+                                            </tr>
+
+                                            <!--30-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(30)_UFCD 7266.pdf" target="_blank">7266 (30)
+                                                        <br />
+                                                        Gestão e tratamento de reclamações</a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--31-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(31)_UFCD 10164.pdf" target="_blank">
+                                                        10164 (31)
+                                                        <br />
+                                                        Protocolos de dispensa de
+                                                        medicamentos não sujeitos a
+                                                        receita médica
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--32-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(32)_UFCD 10165.pdf" target="_blank"> 10165 (32)
+                                                        <br />
+                                                        Técnicas de execução de
+                                                        determinações de
+                                                        parâmetros na
+                                                        farmácia</a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--33-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(33)_UFCD 10166.pdf" target="_blank">
+                                                        10166 (33)
+                                                        <br />
+                                                        Sistemas Informáticos aplicados à
+                                                        atividade comercial na
+                                                        farmácia
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">50</td>
+                                                <td style="text-align: center">4.50</td>
+                                            </tr>
+
+                                            <!--34-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(34)_UFCD 4651.pdf" target="_blank">
+                                                        4651 (34)
+                                                        <br />
+                                                        Gestão de stress e gestão de
+                                                        conflitos
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--35-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(35)_UFCD 6538.pdf" target="_blank">
+                                                        6538 (35)
+                                                        <br />
+                                                        Trabalho em equipa
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--36-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(36)_UFCD 4793.pdf" target="_blank">
+                                                        4793 (36)
+                                                        <br />
+                                                        Introdução à gestão da qualidade
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--37-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(37)_UFCD 10167.pdf" target="_blank"> 10167 (37)
+                                                        <br />
+                                                        Boas práticas em farmácia</a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--38-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(38)_UFCD 10168.pdf" target="_blank">
+                                                        10168 (38)
+                                                        <br />
+                                                        Noções gerais de veterinária e o
+                                                        aconselhamento na
+                                                        farmácia
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--39-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(39)_UFCD 10171.pdf" target="_blank">10171 (39)
+                                                        <br />
+                                                        Dermofarmácia e cosmética e o
+                                                        aconselhamento na farmácia</a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--40-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(40)_UFCD 10172.pdf" target="_blank"> 10172 (40)
+                                                        <br />
+                                                        Higiene oral e o aconselhamento na
+                                                        farmácia</a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--41-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(41)_UFCD 10175.pdf" target="_blank">
+                                                        10175 (41)
+                                                        <br />
+                                                        Puericultura e o aconselhamento na
+                                                        farmácia
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--42-->
+                                            <tr>
+                                                <td>
+                                                    <a href="reflexões/(42)_UFCD 9822.pdf" target="_blank">
+                                                        9822 (42)
+                                                        <br />
+                                                        Poupança – conceitos básicos
+                                                    </a>
+                                                </td>
+                                                <td style="text-align: center">25</td>
+                                                <td style="text-align: center">2.25</td>
+                                            </tr>
+
+                                            <!--FCT-->
+                                            <tr>
+                                                <td>
+                                                    FCT
+                                                    <br />
+                                                    Formação em contexto de trabalho
+                                                </td>
+                                                <td style="text-align: center">210</td>
+                                                <td style="text-align: center">20</td>
+                                            </tr>
+                                        </table>
+                                        <!--fim tabela-->
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!--estagio-->
+                        <section class="resume-section p-3 p-lg-5 flex-nowrap" id="estagio">
+                            <div class="my-auto">
+                                <h2 class="mb-0">Local de estagio</h2>
+                                <h3 class="">Farmácia Tanara <span class="text-primary">Forum Castelo Branco</span></h3>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="text-left">
+                                            <div class="">
+                                                <a href="https://www.google.com/maps/dir//Forum+Castelo+Branco,+Av.+Prof.+Dr.+Egas+Moniz,+6000-459+Castelo+Branco/@39.807858,-7.51699,16z/data=!4m9!4m8!1m0!1m5!1m1!1s0xd3d5eb071cd02c9:0xfa13d367d0b082d!2m2!1d-7.5148196!2d39.8080899!3e0?hl=pt-PT&entry=ttu"
+                                                    style="text-decoration: underline" target="_blank">
+                                                    Av. Prof. Dr. Egas Moniz 901,
+                                                    6000-901 Castelo Branco
+                                                </a> <br>
+                                                <a href="mailto:tanaraexpressocbranco@farmaciastanara.pt"
+                                                    style="text-decoration: underline">tanaraexpressocbranco@farmaciastanara.pt</a>
+                                                <br>
+                                                <a href="tel:272346357" style="text-decoration: underline">272346357</a>
+
+                                            </div>
+                                        </div>
+                                        <div class="social-icons">
+                                            <a class="social-icon"
+                                                href="mailto:tanaraexpressocbranco@farmaciastanara.pt" target="_blank">
+                                                <svg class="env" xmlns="http://www.w3.org/2000/svg" height="1em"
+                                                    viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                                    <style>
+                                                        .env {
+                                                            fill: black
+                                                        }
+                                                    </style>
+                                                    <path
+                                                        d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
+                                                </svg>
+                                            </a>
+                                            <a class="social-icon"
+                                                href="https://forumcastelobranco.com.pt/lojasdetalhes.aspx?id=238"
+                                                target="_blank">
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                                                    viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                                    <path
+                                                        d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64H348.7c2.2 20.4 3.3 41.8 3.3 64zm28.8-64H503.9c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0H18.6C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352H135.3zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6H493.4z" />
+                                                </svg>
+                                            </a>
+                                            <a class="social-icon"
+                                                href="https://www.facebook.com/profile.php?id=100063282185782"
+                                                target="_blank">
+                                                <svg class="um" xmlns="http://www.w3.org/2000/svg" height="1em"
+                                                    viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                                    <style>
+                                                        .um {
+                                                            fill: #1c77ed
+                                                        }
+                                                    </style>
+                                                    <path
+                                                        d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                        <table>
+                                            <tr>
+                                                <td style="padding-top: 13px;">
+                                                    <a href="#" onclick="abrirPopup('img/Fots/Im1.jpg'); return false;">
+                                                        <img class="zoom rad" src="img/Fots/Im1.jpg" alt=""></a>
+                                                    <a href="#" onclick="abrirPopup('img/Fots/Im2.jpg'); return false;">
+                                                        <img class="zoom rad" src="img/Fots/Im2.jpg" alt=""></a>
+                                                    <a href="#" onclick="abrirPopup('img/Fots/Im3.jpg'); return false;">
+                                                        <img class="zoom rad" src="img/Fots/Im3.jpg" alt=""></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding-bottom: 20px;"></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="text-right">
+                                            <div class="google-map-container">
+                                                <div>
+                                                    <iframe
+                                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3064.9508627158066!2d-7.517394523207725!3d39.808093992456804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd3d5eb071cd02c9%3A0xfa13d367d0b082d!2sForum%20Castelo%20Branco!5e0!3m2!1spt-PT!2spt!4v1691585829304!5m2!1spt-PT!2spt"
+                                                        width="400" height="300" style="border: 0" allowfullscreen
+                                                        loading="lazy"
+                                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!--final-->
+                        <section class="resume-section p-3 p-lg-5 flex-nowrap" id="final">
+                            <div class="my-auto">
+                                <h2 class="mb-0">Balanço <span class="text-primary">do curso</span></h2>
+                                <div class="resume-item d-flex flex-nowrap flex-md-row mb-5">
+                                    <div class="resume-content mr-auto">
+                                        <div class="">
+                                            <p>
+                                                Antes de mais, quero expressar o meu cordial
+                                                reconhecimento à coordenadora Mariana
+                                                Fernandes Rodrigues e à mediadora Paula
+                                                Sarandeses pelo seus empenho e dedicação em
+                                                orientar o curso.
+                                                Pretendo, também expressar a minha gratidão
+                                                a
+                                                todos as
+                                                formadoras e formadores competentes que
+                                                partilharam, valiosos
+                                                conhecimentos, com paixão e métodos
+                                                educativos
+                                                eficazes. As
+                                                sessões foram extremamente enriquecedoras e
+                                                contribuíram
+                                                significativamente para o meu
+                                                desenvolvimento
+                                                como Técnico
+                                                Auxiliar de Farmácia.
+                                                <br>
+                                                Graças a equipa formativa, adquiri saberes
+                                                essenciais para uma melhor compreensão de
+                                                todos os conceitos fundamentais,
+                                                preparando-me para exercer as minhas funções
+                                                com mais segurança e eficácia. Sou
+                                                sinceramente grato pela excelente formação
+                                                que recebi. Durante a minha preparação na
+                                                área da saúde, aprendi uma ampla gama de
+                                                conceitos, sendo que os mais importantes
+                                                incluem prescrição, dispensa e conferência
+                                                de receitas, direitos e deveres dos clientes
+                                                e ética em saúde. Além disso, também aprendi
+                                                sobre técnicas de marketing e promoção
+                                                utilizadas no setor, ciclo de vida de
+                                                medicamentos e produtos de saúde, aplicação
+                                                da língua inglesa no atendimento ao público
+                                                e muito mais.
+                                                <br>
+                                                Como nunca tive experiência prévia em lidar com
+                                                o público, os módulos mais relevantes para poder
+                                                estar mais a vontade no atendimento. Foram,
+                                                entre outras, as UFCDS
+                                                "Atendimento - Técnicas de Comunicação" (0704) e
+                                                "Atendimento e Venda Presencial" (5897). Estas
+                                                formações representam um recurso valioso para
+                                                meu futuro como técnico auxiliar de farmácia e
+                                                além. Elas me habilitam a assumir
+                                                responsabilidades relacionadas ao atendimento
+                                                numa variedade de contextos profissionais.
+
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+        </div>
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- Plugin JavaScript -->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        <!-- Custom scripts for this template -->
+        <script src="js/resume.min.js"></script>
 </body>
 
 </html>
