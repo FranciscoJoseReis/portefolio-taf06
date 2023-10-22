@@ -19,10 +19,9 @@
     grid-template-columns: .5fr 2fr .5fr;
     }
     
-    .card:has(.right :hover) {
+    .card:has(.right:hover) {
     grid-template-columns: .5fr .5fr 2fr;
     }
-
 
 .rad {
     border: 2px solid #21c0ac;
