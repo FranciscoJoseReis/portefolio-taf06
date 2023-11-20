@@ -265,7 +265,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-    background-color: #bd5d38 !important
+    background-color: #008000 !important
 }
 
 .text-primary {
@@ -298,4 +298,7 @@ a:hover {
 
 a {
     color: #bd5d38;
+}
+.copyright-text{
+    color: #fff0f5;
 }
