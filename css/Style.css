@@ -3,6 +3,9 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
+ .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0.125rem;
+}
 /*---------------------------------------
   HERO        
 -----------------------------------------*/
@@ -380,10 +383,6 @@ a {
 
     .custom-block {
         display: none;
-    }
- 
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding: 0;
     }
 
     .booking-form {
