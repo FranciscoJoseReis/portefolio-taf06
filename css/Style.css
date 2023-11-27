@@ -53,15 +53,16 @@
 }
 
 .custom-block {
-    border: 10px solid #008000;
+    border: 10px solid #000000;
+    background-color: #cccccc;
     border-radius: 100%;
     position: absolute;
     z-index: 2;
-    bottom: -60px;
-    right: -60px;
-    padding: 50px 90px 50px 50px;
-    width: 360px;
-    height: 360px;
+    top: 100px;
+    right: 50px;
+    padding: 20px 40px 20px 20px;
+    width: 390px;
+    height: 190px;
 }
 
 .custom-block .custom-btn {
